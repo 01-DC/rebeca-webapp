@@ -1,16 +1,20 @@
 import React from "react"
 import image from "../../assets/bh 1.png"
+import AnimationCanvas from "../shared/AnimationCanvas"
 
 const About = () => {
 	return (
 		<div className="bg-base-200 py-16 md:px-16">
-			<div className="container mx-auto">
+			<div className="relative">
+				<AnimationCanvas />
+				<h2
+					className="text-4xl font-extrabold md:text-6xl pl-4 shadow-2xl absolute top-1/2 -translate-y-1/2"
+					id="about">
+					About Us
+				</h2>
+			</div>
+			<div className="container mx-auto mt-16">
 				<div className="flex flex-col gap-16">
-					<h2
-						className="text-4xl font-extrabold md:text-6xl"
-						id="about">
-						About Us
-					</h2>
 					<div className="card card-side bg-base-100 shadow-xl flex-col-reverse lg:flex-row">
 						<figure className="lg:w-1/3">
 							<img

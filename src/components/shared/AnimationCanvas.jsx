@@ -158,11 +158,7 @@ const AnimationCanvas = () => {
 		animate()
 	}, [canvas, effect])
 
-	return (
-		<div className="h-screen w-screen">
-			<canvas ref={canvas}></canvas>
-		</div>
-	)
+	return <canvas ref={canvas}></canvas>
 }
 
 export default AnimationCanvas
