@@ -25,27 +25,27 @@ const About = () => {
 							</h2>
 							<p className="text-start">
 								REunion and Bengal Engineering College Annuals -
-								The Annual Cultural Fest Of Iiest, Shibpur Goes
-								Beyond The Standards Of A Mere College Fest To
-								Become A Name Synonymous With Emotions And
-								Unforgettable Memories. As The Name Suggests, It
-								Started Off As A Reunion Ground For The Alumni
-								To Revisit Their Alma Mater, To Meet Old
-								Favorites And New Aquiantances, And Relive The
-								Moments Out Of Their Time, Back In The Year
-								1932. Today, This Oldest Fest Of The Country Is
-								A Hub Of Pure Ecstasy And Talent Showcase With
-								Per- Formances By Students As Well As Industry
-								Heavyweights Like Jubin Nautiyal, Benny Dayal,
-								Aditi Singh Sharma, Javed Ali, Kk, Fossils And
-								Several Others. Fashion Shows, Alumni Meets,
-								Band Competitions, Dance Per- Formances,
-								Seminars, Literary Competitions. Rebeca Holds So
-								Much More In Its Store! And With The Arrival Of
-								2023, It's Time To Witness The 82nd Edition Of
-								Rebeca, Another Year Of An Iconic Tradition,
-								Once Again To Be Celebrated With Magnifi- Cent
-								Pomp And Grandeur.
+								The Annual Cultural Fest of IIEST, Shibpur goes
+								beyond the standards of a mere college fest to
+								become a name synonymous with emotions and
+								unforgettable memories. As the name suggests, it
+								started off as a reunion ground for the alumni
+								to revisit their alma mater, to meet old
+								favorites and new acquiantances, and relive the
+								moments out of their time, back in the year
+								1932. Today, this oldest fest of the country is
+								a hub of pure ecstasy and talent showcase with
+								performances by students as well as industry
+								heavyweights like Jubin Nautiyal, Benny Dayal,
+								Aditi Singh Sharma, Javed Ali, KK, Fossils and
+								several others. Fashion shows, Alumni Meets,
+								Band Competitions, Dance performances, Seminars
+								and Literary Competitions. REBECA holds so much
+								more in it's store! With the arrival of 2023,
+								it's time to witness the 82nd edition of REBECA,
+								another year of an iconic tradition, once again
+								to be celebrated with magnificent pomp and
+								grandeur.
 							</p>
 						</div>
 					</div>
