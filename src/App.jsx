@@ -1,7 +1,25 @@
 import React from "react"
+import { Route, Routes } from "react-router-dom"
+
+import Home from "./pages/Home"
+import Navbar from "./components/shared/Navbar"
+import Toast from "./components/shared/Toast"
+import Footer from "./components/shared/Footer"
 
 function App() {
-	return <h1 className="text-3xl font-bold underline">Hello world!</h1>
+	return (
+		<div>
+			<Navbar />
+
+			<Routes>
+				<Route path="/" element={<Home />} />
+				<Route path="*" element={<ComingSoon />} />
+			</Routes>
+
+			<Toast />
+			<Footer />
+		</div>
+	)
 }
 
 export default App
