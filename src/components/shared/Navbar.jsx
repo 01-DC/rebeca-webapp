@@ -2,30 +2,30 @@ import React, { useState } from "react"
 import { NavLink, useNavigate } from "react-router-dom"
 import { useStateContext } from "../../contexts/ContextProvider"
 // import logo from "../../assets/logo.svg"
-import moment from "moment"
+// import moment from "moment"
 import axios from "axios"
 import Loader from "./Loader"
 
-moment.updateLocale("en", {
-	relativeTime: {
-		future: "in %s",
-		past: "%s ago",
-		s: "1s",
-		ss: "%ds",
-		m: "1m",
-		mm: "%dm",
-		h: "1h",
-		hh: "%dh",
-		d: "1d",
-		dd: "%dd",
-		w: "1w",
-		ww: "%dw",
-		M: "1m",
-		MM: "%dm",
-		y: "1y",
-		yy: "%dy",
-	},
-})
+// moment.updateLocale("en", {
+// 	relativeTime: {
+// 		future: "in %s",
+// 		past: "%s ago",
+// 		s: "1s",
+// 		ss: "%ds",
+// 		m: "1m",
+// 		mm: "%dm",
+// 		h: "1h",
+// 		hh: "%dh",
+// 		d: "1d",
+// 		dd: "%dd",
+// 		w: "1w",
+// 		ww: "%dw",
+// 		M: "1m",
+// 		MM: "%dm",
+// 		y: "1y",
+// 		yy: "%dy",
+// 	},
+// })
 
 const NavBar = () => {
 	const { loginUser, setLoginUser, showToastHandler } = useStateContext()
@@ -97,12 +97,7 @@ const NavBar = () => {
 					</ul>
 				</div>
 				<NavLink to="/" className="btn btn-ghost normal-case text-xl">
-					<img
-						src={logo}
-						className="max-w-sm mx-3"
-						width="25"
-						height="25"
-					/>
+					<img className="max-w-sm mx-3" width="25" height="25" />
 					Instruo
 				</NavLink>
 			</div>

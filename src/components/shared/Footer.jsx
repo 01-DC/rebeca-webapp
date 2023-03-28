@@ -7,7 +7,7 @@ const Footer = () => {
 		<>
 			<footer className="footer p-16 pb-12 bg-neutral text-base-content">
 				<div className="max-w-md">
-					<img src={logo} width="50" height="50" className="mx-4" />
+					<img width="50" height="50" className="mx-4" />
 					<p className="text-lg">
 						Instruo 2k23
 						<br />
