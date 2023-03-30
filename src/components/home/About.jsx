@@ -47,14 +47,11 @@ const About = () => {
 					</div>
 					<div className="card card-side bg-base-100 shadow-xl flex-col lg:flex-row-reverse">
 						<figure className="lg:w-1/3">
-							<img
-								className="h-full object-cover"
-								alt="instruo"
-							/>
+							<img className="h-full object-cover" alt="rebeca" />
 						</figure>
 						<div className="card-body lg:w-2/3 px-8 my-auto">
 							<h2 className="card-title justify-center lg:justify-start">
-								Instruo @ 12
+								REBECA @ 82
 							</h2>
 							<p className="text-start">
 								Kolkata's Largest Technical Festival is

@@ -9,9 +9,9 @@ const Footer = () => {
 				<div className="max-w-md">
 					<img width="50" height="50" className="mx-4" />
 					<p className="text-lg">
-						Instruo 2k23
+						REBECA 2023
 						<br />
-						The Largest Technical Fest in Kolkata
+						{/* The Largest Technical Fest in Kolkata */}
 					</p>
 				</div>
 				<div>
@@ -161,7 +161,7 @@ const Footer = () => {
 			</footer>
 			<footer className="footer footer-center p-4 bg-neutral border-t border-base-200 text-base-content">
 				<div>
-					<p>Copyright © 2023 - All rights reserved by Instruo</p>
+					<p>Copyright © 2023 - All rights reserved by REBECA</p>
 				</div>
 			</footer>
 		</>
