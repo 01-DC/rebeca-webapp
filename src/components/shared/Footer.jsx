@@ -9,9 +9,9 @@ const Footer = () => {
 				<div className="max-w-md">
 					<img width="50" height="50" className="mx-4" />
 					<p className="text-lg">
-						Instruo 2k23
+						REBECA 2023
 						<br />
-						The Largest Technical Fest in Kolkata
+						{/* The Largest Technical Fest in Kolkata */}
 					</p>
 				</div>
 				<div>
@@ -59,7 +59,7 @@ const Footer = () => {
 								strokeLinejoin="round"
 								d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"></path>
 						</svg>
-						instruo@iiests.ac.in
+						82rebeca2023@gmail.com
 					</a>
 					<a
 						className="link link-hover flex gap-2 items-center justify-center"
@@ -161,7 +161,7 @@ const Footer = () => {
 			</footer>
 			<footer className="footer footer-center p-4 bg-neutral border-t border-base-200 text-base-content">
 				<div>
-					<p>Copyright © 2023 - All rights reserved by Instruo</p>
+					<p>Copyright © 2023 - All rights reserved by REBECA</p>
 				</div>
 			</footer>
 		</>

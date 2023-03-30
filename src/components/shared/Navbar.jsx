@@ -98,7 +98,7 @@ const NavBar = () => {
 				</div>
 				<NavLink to="/" className="btn btn-ghost normal-case text-xl">
 					<img className="max-w-sm mx-3" width="25" height="25" />
-					Instruo
+					REBECA
 				</NavLink>
 			</div>
 			<div className="navbar-center hidden lg:flex">
