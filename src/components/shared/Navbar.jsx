@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { NavLink, useNavigate } from "react-router-dom"
 import { useStateContext } from "../../contexts/ContextProvider"
-// import logo from "../../assets/logo.svg"
+import logo from "../../assets/rebeca-logo.png"
 // import moment from "moment"
 import axios from "axios"
 import Loader from "./Loader"
@@ -96,9 +96,13 @@ const NavBar = () => {
 						)}
 					</ul>
 				</div>
-				<NavLink to="/" className="btn btn-ghost normal-case text-xl">
-					<img className="max-w-sm mx-3" width="25" height="25" />
-					REBECA
+				<NavLink to="/" className="btn btn-ghost">
+					<img
+						src={logo}
+						className="max-w-sm"
+						width="100"
+						height="100"
+					/>
 				</NavLink>
 			</div>
 			<div className="navbar-center hidden lg:flex">

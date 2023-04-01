@@ -16,11 +16,11 @@ module.exports = {
 		themes: [
 			{
 				mytheme: {
-					primary: "#7F0819",
+					primary: "#ffffff",
 					secondary: "#f87171",
 					accent: "#fca5a5",
-					neutral: "#AB9378",
-					"base-100": "#BDB0A8",
+					neutral: "rgb(170, 104, 104)",
+					"base-100": "#021132",
 					info: "#66CEE5",
 					success: "#24CC8E",
 					warning: "#E6A71E",
