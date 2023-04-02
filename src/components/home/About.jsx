@@ -1,17 +1,17 @@
 import React from "react"
-// import logo from "../../assets/logo_home.jpg"
+import image from "../../assets/bh 1.png"
 
 const About = () => {
 	return (
 		<div className="hero bg-base-200 text-base-content mx-auto py-16 md:px-8">
-			<div className="hero-content px-4 md:px-2 text-center">
+			<div className="hero-content px-4 md:px-2">
 				<div className="flex flex-col gap-16">
 					<h2
 						className="text-5xl font-extrabold md:text-6xl"
 						id="about">
 						About Us
 					</h2>
-					<div className="card card-side bg-base-100 shadow-xl flex-col lg:flex-row">
+					<div className="card card-side bg-base-100 shadow-xl flex-col lg:flex-row-reverse">
 						<figure className="lg:w-1/3">
 							<img
 								className="h-full object-cover"
@@ -45,9 +45,13 @@ const About = () => {
 							</p>
 						</div>
 					</div>
-					<div className="card card-side bg-base-100 shadow-xl flex-col lg:flex-row-reverse">
+					<div className="card card-side bg-base-100 shadow-xl flex-col lg:flex-row">
 						<figure className="lg:w-1/3">
-							<img className="h-full object-cover" alt="rebeca" />
+							<img
+								src={image}
+								className="h-full object-cover"
+								alt="rebeca"
+							/>
 						</figure>
 						<div className="card-body lg:w-2/3 px-8 my-auto">
 							<h2 className="card-title justify-center lg:justify-start">
