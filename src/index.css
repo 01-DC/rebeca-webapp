@@ -5,6 +5,31 @@
 	scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+	background: --var();
+	width: 6px;
+	height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: grey;
+	border-radius: 12px;
+}
+
+::-webkit-scrollbar-track {
+	display: none;
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+	background-color: transparent;
+	opacity: 1;
+}
+
+.carousel-dark .carousel-indicators .active img {
+	transition: all ease-in 300ms;
+	--tw-ring-color: hsl(var(--p));
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

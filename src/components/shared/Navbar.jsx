@@ -51,7 +51,7 @@ const NavBar = () => {
 	}
 
 	return (
-		<nav className="sticky top-[1rem] z-50 navbar bg-base-300 rounded-box bg-opacity-60 mt-[1rem] backdrop-blur transition-all duration-100 text-base-content shadow-sm w-11/12 mx-auto">
+		<nav className="sticky top-0 z-50 navbar bg-black transition-all duration-100 text-base-content shadow-sm">
 			<div className="navbar-start">
 				<div className="dropdown">
 					<label tabIndex={0} className="btn btn-ghost lg:hidden">
