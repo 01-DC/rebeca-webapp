@@ -3,8 +3,8 @@ import image from "../../assets/bh 1.png"
 
 const About = () => {
 	return (
-		<div className="hero bg-base-200 text-base-content mx-auto py-16 md:px-8">
-			<div className="hero-content px-4 md:px-2">
+		<div className="bg-base-200 py-16 md:px-8">
+			<div className="container mx-auto">
 				<div className="flex flex-col gap-16">
 					<h2
 						className="text-5xl font-extrabold md:text-6xl"
@@ -14,7 +14,7 @@ const About = () => {
 					<div className="card card-side bg-base-100 shadow-xl flex-col lg:flex-row-reverse">
 						<figure className="lg:w-1/3">
 							<img
-								className="h-full object-cover"
+								className="h-96 object-cover"
 								src="https://www.iiests.ac.in/assets/images/bg/05.jpg"
 								alt="iiests"
 							/>
@@ -49,7 +49,7 @@ const About = () => {
 						<figure className="lg:w-1/3">
 							<img
 								src={image}
-								className="h-full object-cover"
+								className="h-96 object-cover"
 								alt="rebeca"
 							/>
 						</figure>

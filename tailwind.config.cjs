@@ -10,7 +10,11 @@ module.exports = {
 		"text-neutral",
 	],
 	theme: {
-		extend: {},
+		extend: {
+			colors: {
+				rebpurple: "#42143D",
+			},
+		},
 	},
 	daisyui: {
 		themes: [
@@ -19,8 +23,9 @@ module.exports = {
 					primary: "#ffffff",
 					secondary: "#f87171",
 					accent: "#fca5a5",
-					neutral: "rgb(170, 104, 104)",
+					neutral: "#32049A",
 					"base-100": "#021132",
+					"base-content": "#ffffff",
 					info: "#66CEE5",
 					success: "#24CC8E",
 					warning: "#E6A71E",
