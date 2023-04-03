@@ -6,7 +6,7 @@ import { Link } from "react-router-dom"
 const Footer = () => {
 	return (
 		<>
-			<footer className="footer p-16 pb-12 bg-neutral text-base-content place-items-center">
+			<footer className="footer p-16 pb-12 bg-gradient-to-r from-rebpurple to-base-100 text-base-content place-items-center">
 				<div className="max-w-md">
 					<img src={logo} width="200" height="200" className="mx-4" />
 				</div>
@@ -150,7 +150,7 @@ const Footer = () => {
 					/>
 				</div>
 			</footer>
-			<footer className="footer footer-center p-4 bg-neutral border-t border-base-200 text-base-content">
+			<footer className="footer footer-center p-4 bg-gray-700 border-t border-base-200 text-base-content">
 				<div>
 					<p>Copyright © 2023 - All rights reserved by REBECA</p>
 				</div>
