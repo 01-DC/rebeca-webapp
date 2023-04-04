@@ -6,6 +6,7 @@ import ComingSoon from "./pages/ComingSoon"
 import Navbar from "./components/shared/Navbar"
 import Toast from "./components/shared/Toast"
 import Footer from "./components/shared/Footer"
+import Events from "./pages/Events"
 
 function App() {
 	return (
@@ -14,6 +15,7 @@ function App() {
 
 			<Routes>
 				<Route path="/" element={<Home />} />
+				<Route path="/events" element={<Events />} />
 				<Route path="*" element={<ComingSoon />} />
 			</Routes>
 
