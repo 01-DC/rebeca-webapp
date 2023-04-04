@@ -14,8 +14,8 @@ const Sponsors = () => {
 					<a
 						href={brochure}
 						download={"Sponsorship Brochure.pdf"}
-						className="btn btn-lg">
-						Download Sponsorship Brochure
+						className="btn btn-xs md:btn-lg">
+						Download Sponsorship Brochure for REBECA 2023
 					</a>
 				</div>
 				<div className="bg-neutral-300 p-16">

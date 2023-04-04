@@ -97,16 +97,16 @@ const NavBar = () => {
 			</div>
 			<div className="navbar-center hidden lg:flex">
 				<ul className="menu menu-horizontal p-0">
-					<li>
+					<li className="rounded-lg">
 						<NavLink to="/sponsors">Sponsors</NavLink>
 					</li>
-					<li>
+					<li className="rounded-lg">
 						<NavLink to="/events">Events</NavLink>
 					</li>
-					<li>
+					<li className="rounded-lg">
 						<NavLink to="/workshops">Workshops</NavLink>
 					</li>
-					<li>
+					<li className="rounded-lg">
 						<NavLink to="/contactus">Contact Us</NavLink>
 					</li>
 				</ul>
