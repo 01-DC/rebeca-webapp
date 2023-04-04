@@ -1,4 +1,5 @@
 import React from "react"
+import AnimationCanvas from "./AnimationCanvas"
 import hero from "../../assets/hero.png"
 import rebecaTeaser from "../../assets/rebeca-video.m4v"
 
@@ -13,6 +14,8 @@ const Hero = () => {
 				loop={true}
 				muted={true}
 			/>
+
+			<AnimationCanvas />
 		</div>
 	)
 }
