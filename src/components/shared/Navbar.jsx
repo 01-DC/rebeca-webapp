@@ -79,9 +79,6 @@ const NavBar = () => {
 							<NavLink to="/events">Events</NavLink>
 						</li>
 						<li>
-							<NavLink to="/workshops">Workshops</NavLink>
-						</li>
-						<li>
 							<NavLink to="/contactus">Contact Us</NavLink>
 						</li>
 					</ul>
@@ -102,9 +99,6 @@ const NavBar = () => {
 					</li>
 					<li className="rounded-lg">
 						<NavLink to="/events">Events</NavLink>
-					</li>
-					<li className="rounded-lg">
-						<NavLink to="/workshops">Workshops</NavLink>
 					</li>
 					<li className="rounded-lg">
 						<NavLink to="/contactus">Contact Us</NavLink>
