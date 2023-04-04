@@ -1,6 +1,7 @@
 import React from "react"
+import AnimationCanvas from "./AnimationCanvas"
 import hero from "../../assets/hero.png"
-import rebecaTeaser from "../../assets/rebeca-video.m4v"
+import rebecaTeaser from "../../assets/rebeca-video-1.m4v"
 
 const Hero = () => {
 	return (
@@ -13,6 +14,8 @@ const Hero = () => {
 				loop={true}
 				muted={true}
 			/>
+
+			<AnimationCanvas />
 		</div>
 	)
 }

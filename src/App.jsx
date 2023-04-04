@@ -6,6 +6,8 @@ import ComingSoon from "./pages/ComingSoon"
 import Navbar from "./components/shared/Navbar"
 import Toast from "./components/shared/Toast"
 import Footer from "./components/shared/Footer"
+import Events from "./pages/Events"
+import Sponsors from "./pages/Sponsors"
 
 function App() {
 	return (
@@ -14,6 +16,8 @@ function App() {
 
 			<Routes>
 				<Route path="/" element={<Home />} />
+				<Route path="/events" element={<Events />} />
+				<Route path="/sponsors" element={<Sponsors />} />
 				<Route path="*" element={<ComingSoon />} />
 			</Routes>
 
