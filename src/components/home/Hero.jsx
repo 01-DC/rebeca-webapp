@@ -15,7 +15,7 @@ const Hero = () => {
 				muted={true}
 			/>
 
-			<AnimationCanvas />
+			{/* <AnimationCanvas /> */}
 		</div>
 	)
 }
