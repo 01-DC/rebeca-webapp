@@ -1,10 +1,26 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 import PageHeader from "../components/shared/PageHeader"
 import EventCard from "../components/events/EventCard"
+import axios from "axios"
 
 const events = Array.from(Array(26), (x, i) => i)
 
 const Events = () => {
+	// const [events, setEvents] = useState([])
+
+	// async function getAllEvents() {
+	// 	try {
+	// 		const res = await axios.get("/api/v1/events")
+	// 		setEvents(res.data)
+	// 	} catch (error) {
+	// 		console.log(error)
+	// 	}
+	// }
+
+	// useEffect(() => {
+	// 	getAllEvents()
+	// }, [])
+
 	return (
 		<div>
 			<PageHeader title={"Events & Competitions"} />
