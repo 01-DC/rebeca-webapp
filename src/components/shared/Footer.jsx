@@ -24,17 +24,14 @@ const Footer = () => {
 				</div>
 				<div>
 					<span className="footer-title">Join Us</span>
-					<Link to="/signup" className="link link-hover">
-						Sign Up
-					</Link>
-					<Link to="/login" className="link link-hover">
-						Sign In
-					</Link>
 					<Link to="/events" className="link link-hover">
 						Events
 					</Link>
 					<Link to="/schedule" className="link link-hover">
 						Schedule
+					</Link>
+					<Link to="/rebnights" className="link link-hover">
+						REBnights
 					</Link>
 				</div>
 				<div>
@@ -77,7 +74,7 @@ const Footer = () => {
 					</a>
 					<a
 						className="link link-hover flex gap-2 items-center justify-center"
-						href="tel:8777542763">
+						href="tel:8688737614">
 						<svg
 							className="w-4 h-4"
 							fill="none"
@@ -91,11 +88,11 @@ const Footer = () => {
 								strokeLinejoin="round"
 								d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"></path>
 						</svg>
-						+91 87775 42763
+						+91 86887 37614
 					</a>
 					<a
 						className="link link-hover flex gap-2 items-center justify-center"
-						href="tel:9477182893">
+						href="tel:8637513032">
 						<svg
 							className="w-4 h-4"
 							fill="none"
@@ -109,15 +106,13 @@ const Footer = () => {
 								strokeLinejoin="round"
 								d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"></path>
 						</svg>
-						+91 94771 82893
+						+91 86375 13032
 					</a>
 				</div>
 				<div>
 					<span className="footer-title">Socials</span>
 					<div className="flex items-center justify-center gap-4">
-						<a
-							href="https://www.facebook.com/instruo.iiests"
-							target="_blank">
+						<a href="" target="_blank">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
 								width="24"
@@ -127,9 +122,7 @@ const Footer = () => {
 								<path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
 							</svg>
 						</a>
-						<a
-							href="https://www.instagram.com/instruo.iiests/"
-							target="_blank">
+						<a href="" target="_blank">
 							<svg
 								width="28"
 								height="28"

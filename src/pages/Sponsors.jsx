@@ -8,7 +8,7 @@ import sponsors2 from "../assets/sponsors2.png"
 const Sponsors = () => {
 	return (
 		<div>
-			<PageHeader title={"Past Sponsors"} />
+			<PageHeader title={"Our Sponsors"} />
 			<div className="container mx-auto">
 				<div className="flex justify-center py-16">
 					<a
@@ -19,6 +19,9 @@ const Sponsors = () => {
 					</a>
 				</div>
 				<div className="bg-neutral-300 p-16">
+					<h2 className="text-black text-5xl font-bold mb-8 text-center">
+						Past Sponsors
+					</h2>
 					<img src={sponsors1} className="mx-auto" alt="rebeca" />
 					<img src={sponsors2} className="mx-auto" alt="rebeca" />
 				</div>

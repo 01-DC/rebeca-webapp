@@ -32,14 +32,6 @@ const NavBar = () => {
 	const [notifs, setNotifs] = useState([])
 	const navigate = useNavigate()
 
-	const logoutHandler = () => {
-		localStorage.removeItem("user")
-		localStorage.removeItem("token")
-		setLoginUser("")
-		showToastHandler("Logout successful", "success")
-		navigate("/")
-	}
-
 	const getNotifications = async () => {
 		try {
 			const { data } = await axios.get("/api/v1/notif/")
@@ -79,7 +71,10 @@ const NavBar = () => {
 							<NavLink to="/events">Events</NavLink>
 						</li>
 						<li>
-							<NavLink to="/workshops">Workshops</NavLink>
+							<NavLink to="/schedule">Schedule</NavLink>
+						</li>
+						<li>
+							<NavLink to="/rebnights">REBnights</NavLink>
 						</li>
 						<li>
 							<NavLink to="/contactus">Contact Us</NavLink>
@@ -104,7 +99,10 @@ const NavBar = () => {
 						<NavLink to="/events">Events</NavLink>
 					</li>
 					<li className="rounded-lg">
-						<NavLink to="/workshops">Workshops</NavLink>
+						<NavLink to="/schedule">Schedule</NavLink>
+					</li>
+					<li className="rounded-lg">
+						<NavLink to="/rebnights">REBnights</NavLink>
 					</li>
 					<li className="rounded-lg">
 						<NavLink to="/contactus">Contact Us</NavLink>

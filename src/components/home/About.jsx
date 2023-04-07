@@ -1,16 +1,20 @@
 import React from "react"
 import image from "../../assets/bh 1.png"
+import AnimationCanvas from "../shared/AnimationCanvas"
 
 const About = () => {
 	return (
 		<div className="bg-base-200 py-16 md:px-16">
-			<div className="container mx-auto">
+			<div className="relative">
+				<AnimationCanvas />
+				<h2
+					className="text-4xl font-extrabold md:text-6xl pl-4 shadow-2xl absolute top-1/2 -translate-y-1/2"
+					id="about">
+					About Us
+				</h2>
+			</div>
+			<div className="container mx-auto mt-16">
 				<div className="flex flex-col gap-16">
-					<h2
-						className="text-4xl font-extrabold md:text-6xl"
-						id="about">
-						About Us
-					</h2>
 					<div className="card card-side bg-base-100 shadow-xl flex-col-reverse lg:flex-row">
 						<figure className="lg:w-1/3">
 							<img
@@ -25,27 +29,27 @@ const About = () => {
 							</h2>
 							<p className="text-start">
 								REunion and Bengal Engineering College Annuals -
-								The Annual Cultural Fest Of Iiest, Shibpur Goes
-								Beyond The Standards Of A Mere College Fest To
-								Become A Name Synonymous With Emotions And
-								Unforgettable Memories. As The Name Suggests, It
-								Started Off As A Reunion Ground For The Alumni
-								To Revisit Their Alma Mater, To Meet Old
-								Favorites And New Aquiantances, And Relive The
-								Moments Out Of Their Time, Back In The Year
-								1932. Today, This Oldest Fest Of The Country Is
-								A Hub Of Pure Ecstasy And Talent Showcase With
-								Per- Formances By Students As Well As Industry
-								Heavyweights Like Jubin Nautiyal, Benny Dayal,
-								Aditi Singh Sharma, Javed Ali, Kk, Fossils And
-								Several Others. Fashion Shows, Alumni Meets,
-								Band Competitions, Dance Per- Formances,
-								Seminars, Literary Competitions. Rebeca Holds So
-								Much More In Its Store! And With The Arrival Of
-								2023, It's Time To Witness The 82nd Edition Of
-								Rebeca, Another Year Of An Iconic Tradition,
-								Once Again To Be Celebrated With Magnifi- Cent
-								Pomp And Grandeur.
+								The Annual Cultural Fest of IIEST, Shibpur goes
+								beyond the standards of a mere college fest to
+								become a name synonymous with emotions and
+								unforgettable memories. As the name suggests, it
+								started off as a reunion ground for the alumni
+								to revisit their alma mater, to meet old
+								favorites and new acquiantances, and relive the
+								moments out of their time, back in the year
+								1932. Today, this oldest fest of the country is
+								a hub of pure ecstasy and talent showcase with
+								performances by students as well as industry
+								heavyweights like Jubin Nautiyal, Benny Dayal,
+								Aditi Singh Sharma, Javed Ali, KK, Fossils and
+								several others. Fashion shows, Alumni Meets,
+								Band Competitions, Dance performances, Seminars
+								and Literary Competitions. REBECA holds so much
+								more in it's store! With the arrival of 2023,
+								it's time to witness the 82nd edition of REBECA,
+								another year of an iconic tradition, once again
+								to be celebrated with magnificent pomp and
+								grandeur.
 							</p>
 						</div>
 					</div>
