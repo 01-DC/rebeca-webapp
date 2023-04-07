@@ -1,18 +1,18 @@
 import React from "react"
 import { Link } from "react-router-dom"
 
-const EventCard = ({ eventId, title, category, desc, image }) => {
+const EventCard = ({ eventId, title, category, tagline, image }) => {
 	return (
-		<div className="card w-96 h-96 bg-base-100 shadow-xl image-full">
-			<figure>
-				<img src={image} alt="Event Poster" />
+		<div className="card w-96 h-96 shadow-xl image-full before:!opacity-70">
+			<figure className="">
+				<img src={image} alt={title} className="w-full" />
 			</figure>
 			<div className="card-body overflow-y-auto">
-				<h2 className="card-title text-2xl">{title}</h2>
+				<h2 className="card-title text-2xl text-white">{title}</h2>
 				<div className="badge badge-secondary badge-md font-semibold tracking-wide">
 					{category}
 				</div>
-				<p>{desc.slice(0, 140)}...</p>
+				<p className="text-white">{tagline}</p>
 				<div className="card-actions justify-end">
 					<Link to={`/events/${eventId}`}>
 						<button className="btn btn-primary">
