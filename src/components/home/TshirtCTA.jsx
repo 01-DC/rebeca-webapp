@@ -9,7 +9,7 @@ const TShirtCTA = () => {
 			<div class="lg:w-1/3 mx-4 flex justify-center items-center">
 				<div
 					id="carouselExampleCaptions1"
-					class="carousel slide relative carousel-fade carousel-dark shadow-xl rounded-2xl border-4 border-primary my-12 w-96 py-2"
+					class="carousel slide relative carousel-fade carousel-dark drop-shadow-xl rounded-2xl border-4 border-primary my-12 w-96 py-2"
 					data-bs-ride="carousel">
 					<div class="carousel-indicators absolute bottom-4 left-0 flex flex-col gap-7 p-0 mb-8 ml-4 opacity-80">
 						<button

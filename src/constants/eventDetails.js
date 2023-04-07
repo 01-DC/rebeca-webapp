@@ -1,3 +1,8 @@
+// https://i.ibb.co/k9MrDDm/VOX.jpg
+// https://i.ibb.co/PQv2Lbw/MAESTRO.jpg
+// https://i.ibb.co/pQKD5pn/Saturnalia.jpg
+// https://i.ibb.co/JnPZbhh/FIDUCIA-AUDITION.jpg
+
 export const events = [
 	{
 		title: "Verse Wars",

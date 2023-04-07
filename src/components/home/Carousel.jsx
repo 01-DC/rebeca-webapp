@@ -11,7 +11,7 @@ const Carousel = () => {
 			<div className="relative">
 				<AnimationCanvas />
 				<h2
-					className="text-4xl font-extrabold md:text-6xl pl-4 shadow-2xl absolute top-1/2 -translate-y-1/2"
+					className="text-4xl font-extrabold md:text-6xl pl-4 drop-shadow-2xl absolute top-1/2 -translate-y-1/2"
 					id="about">
 					Gallery
 				</h2>
