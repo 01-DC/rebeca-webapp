@@ -10,6 +10,13 @@ const Sponsors = () => {
 		<div>
 			<PageHeader title={"Our Sponsors"} />
 			<div className="container mx-auto">
+				<div className="p-16">
+					<h2 className="text-white text-5xl font-bold mb-8">
+						Past Sponsors
+					</h2>
+					<img src={sponsors1} className="mx-auto" alt="rebeca" />
+					<img src={sponsors2} className="mx-auto" alt="rebeca" />
+				</div>
 				<div className="flex justify-center py-16">
 					<a
 						href={brochure}
@@ -17,13 +24,6 @@ const Sponsors = () => {
 						className="btn btn-xs md:btn-lg">
 						Download Sponsorship Brochure for REBECA 2023
 					</a>
-				</div>
-				<div className="bg-neutral-300 p-16">
-					<h2 className="text-black text-5xl font-bold mb-8 text-center">
-						Past Sponsors
-					</h2>
-					<img src={sponsors1} className="mx-auto" alt="rebeca" />
-					<img src={sponsors2} className="mx-auto" alt="rebeca" />
 				</div>
 			</div>
 		</div>

@@ -13,8 +13,8 @@ class Particle {
 		this.angle = 0
 		this.timer = this.maxLength * 2
 		this.colors = [
-			"#4c026b",
-			"#730d9e",
+			"#FFAC3F",
+			"#B95D6F",
 			"#9622c7",
 			"#b44ae0",
 			"#cd72f2",
@@ -68,12 +68,12 @@ class Effect {
 		this.width = this.canvas.width
 		this.height = this.canvas.height
 		this.particles = []
-		this.numberOfParticles = 1500
+		this.numberOfParticles = 800
 		this.cellSize = 5
 		this.rows
 		this.cols
 		this.flowField = []
-		this.curve = 6
+		this.curve = 10
 		this.zoom = 0.01
 		this.debug = false
 		this.init()

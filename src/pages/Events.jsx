@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react"
 import PageHeader from "../components/shared/PageHeader"
 import EventCard from "../components/events/EventCard"
-import axios from "axios"
-
-const events = Array.from(Array(26), (x, i) => i)
+import { events } from "../constants/eventDetails"
 
 const Events = () => {
 	// const [events, setEvents] = useState([])
@@ -27,7 +25,14 @@ const Events = () => {
 			<div className="py-16 md:px-16">
 				<div className="flex flex-wrap justify-center gap-8">
 					{events.map((event, i) => (
-						<EventCard key={i} />
+						<EventCard
+							key={i}
+							title={event.title}
+							eventId={event.eventId}
+							category={event.category}
+							tagline={event.tagline}
+							image={event.image}
+						/>
 					))}
 				</div>
 			</div>

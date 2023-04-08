@@ -8,14 +8,14 @@ const About = () => {
 			<div className="relative">
 				<AnimationCanvas />
 				<h2
-					className="text-4xl font-extrabold md:text-6xl pl-4 shadow-2xl absolute top-1/2 -translate-y-1/2"
+					className="text-4xl font-extrabold md:text-6xl pl-4 drop-shadow-2xl absolute top-1/2 -translate-y-1/2"
 					id="about">
 					About Us
 				</h2>
 			</div>
 			<div className="container mx-auto mt-16">
 				<div className="flex flex-col gap-16">
-					<div className="card card-side bg-base-100 shadow-xl flex-col-reverse lg:flex-row">
+					<div className="card card-side bg-base-100 drop-shadow-xl flex-col-reverse lg:flex-row">
 						<figure className="lg:w-1/3">
 							<img
 								src={image}
@@ -53,7 +53,7 @@ const About = () => {
 							</p>
 						</div>
 					</div>
-					<div className="card card-side bg-base-100 shadow-xl flex-col-reverse lg:flex-row-reverse">
+					<div className="card card-side bg-base-100 drop-shadow-xl flex-col-reverse lg:flex-row-reverse">
 						<figure className="lg:w-1/3">
 							<img
 								className="h-96 object-cover"
