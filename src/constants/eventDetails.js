@@ -3,6 +3,25 @@
 // https://i.ibb.co/pQKD5pn/Saturnalia.jpg
 // https://i.ibb.co/JnPZbhh/FIDUCIA-AUDITION.jpg
 
+// https://i.ibb.co/QnXPZBN/versewars.png
+// https://i.ibb.co/kQ5ZwCd/Typist-s-Tourney.png
+// https://i.ibb.co/9ynJGst/Rebecsal.png
+// https://i.ibb.co/qDtF7gp/nartana.png
+// https://i.ibb.co/8bMD2Ss/mudra1.png
+// https://i.ibb.co/d4QJmdK/Expressive-Silence.png
+// https://i.ibb.co/vvjYb5L/barter-to-survive.png
+// https://i.ibb.co/7YZmm3v/groove.jpg
+// https://i.ibb.co/QjFrJV1/Nukkad.jpg
+// https://i.ibb.co/ydmkC4Q/rapsodie.jpg
+// https://i.ibb.co/VvcPtt0/Rockbuzz.png
+// https://i.ibb.co/DWVmR8J/saturnalia.jpg
+// https://i.ibb.co/TmcMjz4/flying-solo-maestro.jpg
+// https://i.ibb.co/hfXPgN8/flying-solo-vox.jpg
+// https://i.ibb.co/XVj7XmF/footloose.jpg
+// https://i.ibb.co/bXDwtL4/Cinessence.png
+// https://i.ibb.co/f8Cc30Q/fiducia-main.jpg
+// https://i.ibb.co/CBp7MZ6/Kalakriti.png
+
 export const events = [
 	{
 		title: "Verse Wars",
@@ -11,7 +30,7 @@ export const events = [
 		category: "LitSoc - Poetry",
 		type: "Individual",
 		desc: "A poetry slam for you to take your rhyme to the next level. Use your verses, your voice and let the crowd lose themselves to the power of your words.",
-		image: "",
+		image: "https://i.ibb.co/QnXPZBN/versewars.png",
 		startDate: "",
 		endDate: "",
 		prize_pool: "8k",
@@ -209,7 +228,7 @@ export const events = [
 		category: "Euphony - Music",
 		type: "Team",
 		desc: "Euphony brings together the most powerful college bands all over the nation in this fierce battle. Let great music reign over the war of bands!",
-		image: "",
+		image: "https://i.ibb.co/VvcPtt0/Rockbuzz.png",
 		startDate: "",
 		endDate: "",
 		prize_pool: "10K",
@@ -344,7 +363,7 @@ export const events = [
 		category: "Euphony - Music",
 		type: "Individual",
 		desc: "Are you a poet of the new generation, and all you need is a beat to drop some bars to elevate the crowd? We'll save you a slot at Euphony's rap competition!",
-		image: "",
+		image: "https://i.ibb.co/ydmkC4Q/rapsodie.jpg",
 		startDate: "",
 		endDate: "",
 		prize_pool: "7K",
@@ -402,6 +421,175 @@ export const events = [
 		],
 		registration_amount: "Rs. 150",
 		registration_amount_iiest: "Rs. 150",
+		payment_link_iiest: "",
+		payment_link: "",
+		brochure_link: "",
+	},
+	{
+		title: "Nukkad",
+		eventId: "7",
+		tagline: "Bringing the stage to the street",
+		category: "Les Thespians - Dramatics",
+		type: "Team",
+		desc: "Nukkad, our street play competition. Get ready to portray your feelings on serious social issues through Nukkad.",
+		image: "https://i.ibb.co/QjFrJV1/Nukkad.jpg",
+		startDate: "",
+		endDate: "",
+		prize_pool: "10K",
+		rounds: [
+			{
+				title: "Single round",
+				desc: "",
+				date: "",
+				time: "",
+				duration: "",
+				venue: "",
+				locUrl: "",
+				rules: [
+					"Team Size: 10-30 (including CAs & music accompanists)",
+					"Teams have to mail the following things at (Rebeca Event team email id): Synopsis of the play (not more than 100 words) and Prod List (List of production material and music instruments brought by the teams). The subject of the email should be “NUKKADCollege_name-Play_name” before the mentioned deadline.",
+					"Time Limit: 15-30minutes. Points will be deducted on exceeding the time limit.",
+					"Judging Criteria: Acting, Voice (Sync, modulation and diction) Screenplay, Script, Audience Interaction & overall impact",
+					"The team size represents the number of people registered as a team. Only these shall be allowed to perform the Street play.",
+					"Music accompanists are included in the team number stated above. Maximum of 4 can be included in the team.",
+					"Teams are expected to perform at an open-air venue with the audience all around.",
+					"No electrical appliances shall be allowed during the performance whether inside or outside the circle of performance.",
+					"Only live music is allowed. Teams will have to bring the instruments. No instruments will be provided.",
+					"The language of the performance should be Hindi/English/Bengali. However, short sub passages in other languages are allowed.",
+					"Any fluid, live animals, flames, heavy objects or any material which has a possibility of damaging the stage is not allowed.",
+					"Dry colours may be used during the play, but the teams have to clean the stage after their performance & the cleaning time will be included in the performance time.",
+					"Any plagiarism & profanity will lead to immediate disqualification.",
+					"The decision of the judges and organizers will be final & abiding.",
+				],
+			},
+		],
+		contacts: [
+			{
+				name: "Ankush Sahu",
+				phone: "+91 9616934988",
+			},
+			{
+				name: "Prerona Saha",
+				phone: "+91  9062038149",
+			},
+		],
+		registration_amount: "Rs. 500",
+		registration_amount_iiest: "Rs. 500",
+		payment_link_iiest: "",
+		payment_link: "",
+		brochure_link: "",
+	},
+	{
+		title: "Expressive Silence",
+		eventId: "8",
+		tagline: "Silence speaks volumes: let your expressions do the talking!",
+		category: "Les Thespians - Dramatics",
+		type: "Team",
+		desc: ":  An event where performers showcase their skills in the art of mime, using only body language and gestures to convey a story or message. Mime is a universal art form that transcends language and cultural barriers, allowing performers to communicate with audiences around the world.",
+		image: "https://i.ibb.co/d4QJmdK/Expressive-Silence.png",
+		startDate: "",
+		endDate: "",
+		prize_pool: "5K",
+		rounds: [
+			{
+				title: "Single round",
+				desc: "",
+				date: "",
+				time: "",
+				duration: "",
+				venue: "",
+				locUrl: "",
+				rules: [
+					"Team Limit: 8+2persons (max)",
+					"Time Limit: 10minutes",
+					"Unnecessary use of props is discouraged.",
+					"Face painting and costumes would not be considered as a prop.",
+					"The act should not contain any dialogues, lip syncs.",
+					"Background music is allowed. However, it must not contain any words (sound representing any living form is not allowed).",
+					"The decision of judges will be final and binding.",
+					"Any fluid/flame is not allowed.",
+					"No act shall contain any obscene, disrespectful actions or gestures. The act will immediately be stopped, and entry will be disqualified if these instructions are not followed.",
+					"Judging criteria: Acting, expression & overall impact.",
+				],
+			},
+		],
+		contacts: [
+			{
+				name: ": Ashutosh Kumar Manjhi",
+				phone: "+91 6488649291",
+			},
+			{
+				name: "Subhomoy Gupta",
+				phone: "+91  7431955333",
+			},
+		],
+		registration_amount: "Rs. 400",
+		registration_amount_iiest: "Rs. 400",
+		payment_link_iiest: "",
+		payment_link: "",
+		brochure_link: "",
+	},
+	{
+		title: "Mudra",
+		eventId: "9",
+		tagline: "Catch the Classical Pace",
+		category: "Reflexobeta - Dance",
+		type: "individual",
+		desc: "Yatho Hasta thatho Drishti, Yatho Drishti thatho Manah, Yatho Manah thatho Bhaava, Yatho Bhaava thatho Rasa. Where the hands are, the eyes follow. Where the eyes are, the mind follows, which auspicate flow of expressions and where there is expression, Navarasa is evoked. So get ready to give an explosion of grace, strength and artistry on stage as we unveil “Mudra”, The Classical Solo Dance Competition",
+		image: "https://i.ibb.co/8bMD2Ss/mudra1.png",
+		startDate: "",
+		endDate: "",
+		prize_pool: "6K",
+		rounds: [
+			{
+				title: "Prelims",
+				desc: "",
+				date: "",
+				time: "",
+				duration: "",
+				venue: "",
+				locUrl: "",
+				rules: [
+					"Submit your dance video (single take, stationary camera, no editing) of max 2 minutes duration at the time of registration.",
+					"Upload your video in google drive with general access, and upload the drive link in the registration form.",
+					"The video should be in landscape mode and audible with good sound quality.",
+					"The video should be visually clear, well-lit, not pixelated or distorted, and have an uncluttered background",
+					"The top 15 entries will qualify for the next round",
+					"Last date of entry: 12 April 2023, 11:59 pm",
+					"Props are allowed but will not fetch extra points.",
+					"Video submission form will be available on website.",
+				],
+			},
+			{
+				title: "Finals",
+				desc: "",
+				date: "",
+				time: "",
+				duration: "",
+				venue: "",
+				locUrl: "",
+				rules: [
+					"Finals will be conducted offline during Rebeca at IIEST, Shibpur",
+					"Finals will be conducted offline during Rebeca at IIEST, Shibpur",
+					"Props are allowed and will carry extra points",
+					"Participants will be marked on their Expressions, Costumes, Stage utilization, Energy, Authenticity, and Perfection.",
+					"Maximum time limit: 6 minutes",
+					"Judge's decision will be final and binding",
+				],
+			},
+		],
+		contacts: [
+			{
+				name: ": Navya Jain",
+				phone: "+91 9414241104",
+			},
+			{
+				name: "Sri Anjani Samala",
+				phone: "+91  9391763989",
+			},
+		],
+		registration_amount: "Rs. 50",
+		registration_amount_iiest: "Rs. 50",
 		payment_link_iiest: "",
 		payment_link: "",
 		brochure_link: "",
