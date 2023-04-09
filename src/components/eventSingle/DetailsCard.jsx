@@ -32,7 +32,7 @@ const DetailsCard = ({ event }) => {
 					<div>
 						<h2 className="text-3xl font-bold">Coordinators</h2>
 						{event.contacts.map((con, i) => (
-							<p>{`${con.name}: ${con.phone}`}</p>
+							<p key={i}>{`${con.name}: ${con.phone}`}</p>
 						))}
 					</div>
 					<a
