@@ -4,21 +4,6 @@ import EventCard from "../components/events/EventCard"
 import { events } from "../constants/eventDetails"
 
 const Events = () => {
-	// const [events, setEvents] = useState([])
-
-	// async function getAllEvents() {
-	// 	try {
-	// 		const res = await axios.get("/api/v1/events")
-	// 		setEvents(res.data)
-	// 	} catch (error) {
-	// 		console.log(error)
-	// 	}
-	// }
-
-	// useEffect(() => {
-	// 	getAllEvents()
-	// }, [])
-
 	return (
 		<div>
 			<PageHeader title={"Events & Competitions"} />

@@ -7,6 +7,7 @@ import Navbar from "./components/shared/Navbar"
 import Toast from "./components/shared/Toast"
 import Footer from "./components/shared/Footer"
 import Events from "./pages/Events"
+import EventSingle from "./pages/EventSingle"
 import Sponsors from "./pages/Sponsors"
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
 			<Routes>
 				<Route path="/" element={<Home />} />
 				<Route path="/events" element={<Events />} />
+				<Route path="/events/:id" element={<EventSingle />} />
 				<Route path="/ourteam" element={<ComingSoon />} />
 				<Route path="/schedule" element={<ComingSoon />} />
 				<Route path="/sponsors" element={<Sponsors />} />
