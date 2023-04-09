@@ -35,9 +35,12 @@ const DetailsCard = ({ event }) => {
 							<p>{`${con.name}: ${con.phone}`}</p>
 						))}
 					</div>
-					<button className="btn btn-primary rounded-xl w-40">
+					<a
+						className="btn btn-primary rounded-xl w-40"
+						href={event.payment_link}
+						target="_blank">
 						Register
-					</button>
+					</a>
 				</div>
 				<div className="place-self-center order-first lg:order-none">
 					<img

@@ -148,7 +148,7 @@ export const events = [
 		registration_amount: "Rs. 50",
 		registration_amount_iiest: "Rs. 50",
 		payment_link_iiest: "",
-		payment_link: "",
+		payment_link: "https://forms.gle/QHG4LfQQYZvbaKaT7",
 		brochure_link: "",
 	},
 	{
@@ -218,7 +218,7 @@ export const events = [
 		registration_amount: "Rs. 500",
 		registration_amount_iiest: "Rs. 500",
 		payment_link_iiest: "",
-		payment_link: "",
+		payment_link: "https://forms.gle/yD9m9QXZaf4s7Lzo9",
 		brochure_link: "",
 	},
 	{
@@ -288,7 +288,7 @@ export const events = [
 		registration_amount: "Rs. 500",
 		registration_amount_iiest: "Rs. 500",
 		payment_link_iiest: "",
-		payment_link: "",
+		payment_link: "https://forms.gle/dCqYU8wDcrC3Az136",
 		brochure_link: "",
 	},
 	{
@@ -353,7 +353,7 @@ export const events = [
 		registration_amount: "Rs. 50",
 		registration_amount_iiest: "Rs. 50",
 		payment_link_iiest: "",
-		payment_link: "",
+		payment_link: "https://forms.gle/G9owTYYQHBQ6whTU8",
 		brochure_link: "",
 	},
 	{
@@ -422,7 +422,7 @@ export const events = [
 		registration_amount: "Rs. 150",
 		registration_amount_iiest: "Rs. 150",
 		payment_link_iiest: "",
-		payment_link: "",
+		payment_link: "https://forms.gle/CWmJpDtnqhXTFLQY7",
 		brochure_link: "",
 	},
 	{
