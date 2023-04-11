@@ -1,6 +1,5 @@
 import React, { useState } from "react"
 import { NavLink, useNavigate } from "react-router-dom"
-import { useStateContext } from "../../contexts/ContextProvider"
 import logo from "../../assets/rebeca-logo.png"
 // import moment from "moment"
 import axios from "axios"
@@ -28,7 +27,6 @@ import Loader from "./Loader"
 // })
 
 const NavBar = () => {
-	const { loginUser, setLoginUser, showToastHandler } = useStateContext()
 	const [notifs, setNotifs] = useState([])
 	const navigate = useNavigate()
 
