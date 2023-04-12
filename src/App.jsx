@@ -4,7 +4,6 @@ import { Route, Routes } from "react-router-dom"
 import Home from "./pages/Home"
 import ComingSoon from "./pages/ComingSoon"
 import Navbar from "./components/shared/Navbar"
-import Toast from "./components/shared/Toast"
 import Footer from "./components/shared/Footer"
 import Events from "./pages/Events"
 import EventSingle from "./pages/EventSingle"
@@ -28,7 +27,6 @@ function App() {
 				<Route path="*" element={<ComingSoon />} />
 			</Routes>
 
-			<Toast />
 			<Footer />
 		</div>
 	)
