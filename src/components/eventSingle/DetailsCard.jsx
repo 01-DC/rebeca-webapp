@@ -32,12 +32,15 @@ const DetailsCard = ({ event }) => {
 					<div>
 						<h2 className="text-3xl font-bold">Coordinators</h2>
 						{event.contacts.map((con, i) => (
-							<p>{`${con.name}: ${con.phone}`}</p>
+							<p key={i}>{`${con.name}: ${con.phone}`}</p>
 						))}
 					</div>
-					<button className="btn btn-primary rounded-xl w-40">
+					<a
+						className="btn btn-primary rounded-xl w-40"
+						href={event.payment_link}
+						target="_blank">
 						Register
-					</button>
+					</a>
 				</div>
 				<div className="place-self-center order-first lg:order-none">
 					<img

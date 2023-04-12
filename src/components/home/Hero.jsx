@@ -1,5 +1,5 @@
 import React from "react"
-import rebecaTeaser from "../../assets/rebeca-video-1.m4v"
+import rebecaTeaser from "../../assets/rebeca-video-1.mp4"
 
 const Hero = () => {
 	return (
