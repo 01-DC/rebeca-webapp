@@ -5,7 +5,7 @@ import { events } from "../constants/eventDetails"
 
 const Events = () => {
 	return (
-		<div>
+		<div className="bg-base-100">
 			<PageHeader title={"Events & Competitions"} />
 			<div className="py-16 md:px-16">
 				<div className="flex flex-wrap justify-center gap-8">

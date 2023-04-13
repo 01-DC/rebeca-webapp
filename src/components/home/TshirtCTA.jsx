@@ -5,7 +5,7 @@ import tshirtback from "../../assets/Rebeca T shirt Back.png"
 
 const TShirtCTA = () => {
 	return (
-		<div class="bg-base-200 py-16 md:px-16">
+		<div class="bg-base-200 bg-opacity-5 backdrop-blur py-16 md:px-16">
 			<div className="relative w-full">
 				<AnimationCanvas />
 				<h2
@@ -17,7 +17,7 @@ const TShirtCTA = () => {
 			<div className="container mx-auto">
 				<div class="flex flex-col justify-center items-center">
 					<div className="flex flex-col md:flex-row justify-between items-center gap-8 mt-16">
-						<div className="flex outline rounded-xl p-16">
+						<div className="flex outline rounded-xl p-4 md:p-8 lg:p-16">
 							<div class="">
 								<img src={tshirtfront} class="" alt="..." />
 							</div>

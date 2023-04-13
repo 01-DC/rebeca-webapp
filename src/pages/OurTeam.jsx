@@ -9,7 +9,7 @@ import subhash from "../assets/team/Subhash_Chandra_Mondal.jpg"
 
 const OurTeam = () => {
 	return (
-		<div>
+		<div className="bg-base-100 bg-opacity-5 backdrop-blur">
 			<PageHeader title={"Our Team"} />
 			<div className="flex flex-col justify-center items-center gap-16 py-16">
 				<div className="flex flex-col items-center gap-4">
