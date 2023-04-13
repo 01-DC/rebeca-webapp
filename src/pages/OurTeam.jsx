@@ -6,6 +6,14 @@ const OurTeam = () => {
 	return (
 		<div>
 			<PageHeader title={"Our Team"} />
+			<div>
+				<div className="avatar">
+					<div className="w-24 rounded-full">
+						<img src="/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+					</div>
+				</div>
+				<p>Neel Diganta Bhadra (CE)</p>
+			</div>
 			<div className="grid grid-cols-2 gap-8 place-items-center text-center py-16 md:px-16">
 				{teamDetails.map((team, i) => (
 					<div className="bg-base-300 rounded-2xl p-8" key={i}>
