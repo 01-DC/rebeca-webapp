@@ -1,14 +1,10 @@
 export const teamDetails = [
 	{
-		title: "Secretary General",
-		members: ["Neel Diganta Bhadra(CE)", "Rohan Jana (CE)"],
-	},
-	{
 		title: "Finance",
 		members: [
+			"Mainak Mondal (CE)",
 			"Mayank Kumar (EE)",
 			"Parag Garg (AE)",
-			"Mainak Mondal (CE)",
 			"Saharsh Kumar (MIN)",
 			"Samriddhi Mukhopadhyay (AE)",
 		],
@@ -16,11 +12,11 @@ export const teamDetails = [
 	{
 		title: "Cultural",
 		members: [
+			"Rajesh Kumar Jaiswar (CE)",
 			"Ayan Kamar (EE)",
 			"Ayush Kumar Singh (ME)",
 			"Vidushi Garg (CE)",
 			"Aditya Badalaya (IT)",
-			"Rajesh Kumar Jaiswar (CE)",
 			"Sumit Godara (CE)",
 			"Vipul Yadav (ME)",
 			"Ashutosh Kumar Manjhi (ME)",
@@ -34,11 +30,11 @@ export const teamDetails = [
 	{
 		title: "Event",
 		members: [
+			"Arnab Abhijit Sharma (ME)",
 			"Sayan Mitra (EE)",
 			"Rudrapu Chalukya (CE)",
 			"Tannistha Bag (ME)",
 			"Tiyasa Khan (ME)",
-			"Arnab Abhijit Sharma (ME)",
 			"Abhinav Singh (EE)",
 			"Abhijeet Anand (CE)",
 			"Vasunith (CE)",
@@ -53,11 +49,11 @@ export const teamDetails = [
 	{
 		title: "Resource Information",
 		members: [
+			"Jyotiprakash Roy (CST)",
 			"Shramana Chowdhury (CE)",
 			"Shashank Srivastava (CST)",
 			"Souvik Sengupta (EE)",
 			"Karan Raj (ME)",
-			"Jyotiprakash Roy (CST)",
 			"Ravi Kumar Kesari (CE)",
 			"Maruvada Narasimha Bhukta (MET)",
 		],
@@ -65,9 +61,9 @@ export const teamDetails = [
 	{
 		title: "Travel and Logistics",
 		members: [
+			"Vivek Rawat(IT)",
 			"Soumya Roy (IT)",
 			"Shubham Sahai (CE)",
-			"Vivek Rawat(IT)",
 			"Darshin D. Patel (CE)",
 			"Chaitnaya Kumar (CE)",
 			"Abhay Tanti (MIN)",
@@ -81,8 +77,8 @@ export const teamDetails = [
 	{
 		title: "Sponsorship",
 		members: [
-			"Sumit Kumar (MIN)",
 			"Bhavesh Sonkar (CE)",
+			"Sumit Kumar (MIN)",
 			"Govinda Vinay Kumar (CE)",
 			"Samudrala Vasanth (EE)",
 			"Ayandeep Grain (MIN)",
@@ -142,10 +138,10 @@ export const teamDetails = [
 	{
 		title: "Business and Alumni meet",
 		members: [
+			"Prajwal Kashinath Nakade (CST)",
 			"Raushan Singh (IT)",
 			"Prajwal Velupula (ETC)",
 			"Amrit Tripathi (EE)",
-			"Prajwal Kashinath Nakade (CST)",
 			"Sarvesh Dubey (ETC)",
 			"Aditya Nilesh Dhamne (AE)",
 			"Arnav Anand (ME)",
@@ -174,13 +170,18 @@ export const teamDetails = [
 	},
 	{
 		title: "Web Development",
-		members: ["Dhritin Dutta (CST)", "Devanshu Chatterjee (IT)"],
+		members: [
+			"Dhritin Dutta (CST)",
+			"Debojit Jha (IT)",
+			"Devanshu Chatterjee (IT)",
+			"Amit Lodh (MET)",
+		],
 	},
 	{
 		title: "Refreshments",
 		members: [
-			"Debmalya Hembram (EE)",
 			"Pulok Halder (AE)",
+			"Debmalya Hembram (EE)",
 			"Aditya Anand (IT)",
 			"Ashutosh (ME)",
 			"Shailendra (IT)",
@@ -195,8 +196,8 @@ export const teamDetails = [
 	{
 		title: "Volunteers",
 		members: [
-			"Vishal (CE)",
 			"Prahalad Dutta (CE)",
+			"Vishal (CE)",
 			"Abhishek Gajanan Jare (ME)",
 			"Malloth Vijay (ME)",
 			"Vishal Kumar (CHST, M-Tech, 2nd year)",
@@ -233,8 +234,8 @@ export const teamDetails = [
 	{
 		title: "BECA Magazine",
 		members: [
-			"Shubham (CST)",
 			"Kshitij Gupta (ME)",
+			"Shubham (CST)",
 			"Nishita Chowdhury (ME)",
 			"Aprajita Sen (ETC)",
 			"Gurusha Rahul (IT)",
