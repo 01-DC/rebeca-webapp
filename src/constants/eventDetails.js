@@ -1,26 +1,21 @@
-// https://i.ibb.co/k9MrDDm/VOX.jpg
-// https://i.ibb.co/PQv2Lbw/MAESTRO.jpg
-// https://i.ibb.co/pQKD5pn/Saturnalia.jpg
-// https://i.ibb.co/JnPZbhh/FIDUCIA-AUDITION.jpg
-
-// https://i.ibb.co/QnXPZBN/versewars.png
-// https://i.ibb.co/kQ5ZwCd/Typist-s-Tourney.png
-// https://i.ibb.co/9ynJGst/Rebecsal.png
-// https://i.ibb.co/qDtF7gp/nartana.png
-// https://i.ibb.co/8bMD2Ss/mudra1.png
-// https://i.ibb.co/d4QJmdK/Expressive-Silence.png
-// https://i.ibb.co/vvjYb5L/barter-to-survive.png
-// https://i.ibb.co/7YZmm3v/groove.jpg
-// https://i.ibb.co/QjFrJV1/Nukkad.jpg
-// https://i.ibb.co/ydmkC4Q/rapsodie.jpg
-// https://i.ibb.co/VvcPtt0/Rockbuzz.png
-// https://i.ibb.co/DWVmR8J/saturnalia.jpg
-// https://i.ibb.co/TmcMjz4/flying-solo-maestro.jpg
-// https://i.ibb.co/hfXPgN8/flying-solo-vox.jpg
-// https://i.ibb.co/XVj7XmF/footloose.jpg
-// https://i.ibb.co/bXDwtL4/Cinessence.png
-// https://i.ibb.co/f8Cc30Q/fiducia-main.jpg
-// https://i.ibb.co/CBp7MZ6/Kalakriti.png
+import verse from "../assets/events/Verse Wars.png"
+import vox from "../assets/events/Flying Solo Vox.jpg"
+import voice from "../assets/events/VOICE OF REBECA.jpg"
+import rockbuzz from "../assets/events/Rockbuzz.png"
+import maestro from "../assets/events/MAESTRO.jpg"
+import rap from "../assets/events/RAPSODIES.jpg"
+import nukkad from "../assets/events/Nukkad.png"
+import silence from "../assets/events/Expressive Silence.png"
+import mudra from "../assets/events/Mudra.png"
+import nartana from "../assets/events/nartana.png"
+import groove from "../assets/events/GROOVE.jpg"
+import scape from "../assets/events/RHYTHMSCAPE.jpg"
+import loose from "../assets/events/FOOTLOOSE.jpg"
+import kala from "../assets/events/Kalakriti.png"
+import shastra from "../assets/events/Shastrath.png"
+import barter from "../assets/events/barter to survive.png"
+import buffer from "../assets/events/Buffer.png"
+import rebecsal from "../assets/events/Rebecsal.png"
 
 export const events = [
 	{
@@ -30,7 +25,7 @@ export const events = [
 		category: "LitSoc - Poetry",
 		type: "Individual",
 		desc: "A poetry slam for you to take your rhyme to the next level. Use your verses, your voice and let the crowd lose themselves to the power of your words.",
-		image: "https://i.ibb.co/QnXPZBN/versewars.png",
+		image: verse,
 		startDate: "",
 		endDate: "",
 		prize_pool: "8k",
@@ -92,7 +87,7 @@ export const events = [
 		category: "Euphony - Music",
 		type: "Individual",
 		desc: "If your voice is your biggest tool to express yourself through the magic of music, your place is at Flying Solo: Vox, Euphony's music competition for vocalists!",
-		image: "https://i.ibb.co/k9MrDDm/VOX.jpg",
+		image: vox,
 		startDate: "",
 		endDate: "",
 		prize_pool: "5k",
@@ -158,7 +153,7 @@ export const events = [
 		category: "Euphony - Music",
 		type: "Team",
 		desc: "Sway the crowd to the rhythms of your guitar, let the audience lose themselves to your mystic voice, Euphony presents the acoustic music competition, Voice of REBECA!",
-		image: "",
+		image: voice,
 		startDate: "",
 		endDate: "",
 		prize_pool: "10K",
@@ -228,7 +223,7 @@ export const events = [
 		category: "Euphony - Music",
 		type: "Team",
 		desc: "Euphony brings together the most powerful college bands all over the nation in this fierce battle. Let great music reign over the war of bands!",
-		image: "https://i.ibb.co/VvcPtt0/Rockbuzz.png",
+		image: rockbuzz,
 		startDate: "",
 		endDate: "",
 		prize_pool: "10K",
@@ -298,7 +293,7 @@ export const events = [
 		category: "Euphony - Music",
 		type: "Individual",
 		desc: "Does the wizard inside you take over whenever you put your hands on your musical instrument? Euphony's Flying Solo: Maestro is the stage for you, let the melody and rhythm flow through the crowd!",
-		image: "https://i.ibb.co/PQv2Lbw/MAESTRO.jpg",
+		image: maestro,
 		startDate: "",
 		endDate: "",
 		prize_pool: "5K",
@@ -363,7 +358,7 @@ export const events = [
 		category: "Euphony - Music",
 		type: "Individual",
 		desc: "Are you a poet of the new generation, and all you need is a beat to drop some bars to elevate the crowd? We'll save you a slot at Euphony's rap competition!",
-		image: "https://i.ibb.co/ydmkC4Q/rapsodie.jpg",
+		image: rap,
 		startDate: "",
 		endDate: "",
 		prize_pool: "7K",
@@ -432,7 +427,7 @@ export const events = [
 		category: "Les Thespians - Dramatics",
 		type: "Team",
 		desc: "Nukkad, our street play competition. Get ready to portray your feelings on serious social issues through Nukkad.",
-		image: "https://i.ibb.co/QjFrJV1/Nukkad.jpg",
+		image: nukkad,
 		startDate: "",
 		endDate: "",
 		prize_pool: "10K",
@@ -486,7 +481,7 @@ export const events = [
 		category: "Les Thespians - Dramatics",
 		type: "Team",
 		desc: "An event where performers showcase their skills in the art of mime, using only body language and gestures to convey a story or message. Mime is a universal art form that transcends language and cultural barriers, allowing performers to communicate with audiences around the world.",
-		image: "https://i.ibb.co/d4QJmdK/Expressive-Silence.png",
+		image: silence,
 		startDate: "",
 		endDate: "",
 		prize_pool: "5K",
@@ -536,7 +531,7 @@ export const events = [
 		category: "Reflexobeta - Dance",
 		type: "Individual",
 		desc: "Yatho Hasta thatho Drishti, Yatho Drishti thatho Manah, Yatho Manah thatho Bhaava, Yatho Bhaava thatho Rasa. Where the hands are, the eyes follow. Where the eyes are, the mind follows, which auspicate flow of expressions and where there is expression, Navarasa is evoked. So get ready to give an explosion of grace, strength and artistry on stage as we unveil “Mudra”, The Classical Solo Dance Competition",
-		image: "https://i.ibb.co/8bMD2Ss/mudra1.png",
+		image: mudra,
 		startDate: "",
 		endDate: "",
 		prize_pool: "6K",
@@ -600,7 +595,7 @@ export const events = [
 		category: "Reflexobeta - Dance",
 		type: "Team",
 		desc: "Our ancestors have gifted us with scriptures and dances which best portray our history and culture. We invite you all to bring along the heritage, thrill and beauty of classical and folk dances upon the stage for “Nartana”, the Classical/Folk Group Dance Competition and mesmerise the audience.",
-		image: "https://i.ibb.co/qDtF7gp/nartana.png",
+		image: nartana,
 		startDate: "",
 		endDate: "",
 		prize_pool: "10K",
@@ -653,7 +648,7 @@ export const events = [
 		category: "Reflexobeta - Dance",
 		type: "Individual",
 		desc: "You rise, you fall, you spin and you crawl, Life is like dance, and worth enjoying it all. So, lace up your dancing shoes, pick up those classy beats and get ready to show off your moves in “Groove”, the Western Solo Dance Competition. Let’s see who transcends through all boundaries with the language of dance.",
-		image: "https://i.ibb.co/7YZmm3v/groove.jpg",
+		image: groove,
 		startDate: "",
 		endDate: "",
 		prize_pool: "6K",
@@ -718,7 +713,7 @@ export const events = [
 		category: "Reflexobeta - Dance",
 		type: "Team",
 		desc: "Dance is a form of expression, a light hearted celebration which gets better when you have a group to sync your steps with. Fascinate the crowd with your style and energy and get them grooving with your troop in the Western Group Dance Competition, “Rhythmscape”. Get them all swaying.",
-		image: "",
+		image: scape,
 		startDate: "",
 		endDate: "",
 		prize_pool: "10K",
@@ -771,7 +766,7 @@ export const events = [
 		category: "REFLEXOBETA - Dance",
 		type: "Team",
 		desc: "A street dance competition is a thrilling and dynamic event that showcases the raw talent, creativity, and passion of dancers from all over. Footloose brings the best dancers from across the country to come together and celebrate the  diverse and vibrant world of urban dance through competitive dance face offs. If you think you have the perfect skills to set the streets on fire, then grab this chance fast, the winner’s position is at stake! Let’s see who will be crowned the champion.",
-		image: "",
+		image: loose,
 		startDate: "",
 		endDate: "",
 		prize_pool: "6K",
@@ -848,9 +843,9 @@ export const events = [
 		eventId: "14",
 		tagline: "A time travel to the Golden period of Art, Renaissance",
 		category: "SCAGE - Art",
-		type: "",
+		type: "Individual",
 		desc: "If time travel were possible, one period we should really explore would be the Renaissance, the age of artists and creative minds. Open to artists from our college and beyond, there is no better opportunity to venture into your creative side than through an Renaissance themed art competition, which includes realism, perspective, and the use of light and shadow. The entries will be judged based on creativity, originality, technical skill, and their ability to capture the essence of Renaissance. You might never know if you can create the next 'Mona Lisa'!",
-		image: "",
+		image: kala,
 		startDate: "",
 		endDate: "",
 		prize_pool: "8K",
@@ -944,7 +939,7 @@ export const events = [
 		category: "DEBSOC - Debate",
 		type: "Team",
 		desc: "Join us in this pursuit of Dispute to witness the rediscovery and rebirth of debate in REBECA, Presenting to you, Rebuttal Rebels, a 3v3 Asian Parliamentary Debate with exciting cash prizes and some fierce debating! Listen. Think. Speak and dissent to become Arguably the Best of them all with exciting cash prizes and eminent debaters as judges.",
-		image: "",
+		image: shastra,
 		startDate: "",
 		endDate: "",
 		prize_pool: "8K",
@@ -988,7 +983,7 @@ export const events = [
 		category: "EDC - Business",
 		type: "Team",
 		desc: "Buckle up and get ready in order to survive and make a way to succeed here. One team draws a set of creativity moves while the others follow the suits to survive. Without preparing in advance, players present convincing moves showing their creativity, negotiation, survival and communication skills",
-		image: "",
+		image: barter,
 		startDate: "",
 		endDate: "",
 		prize_pool: "10K",
@@ -1035,7 +1030,7 @@ export const events = [
 		category: "CAMERABUFF - Film Making",
 		type: "Team",
 		desc: "Everyone is a filmmaker at least once in a lifetime. Camerabuff presents a short filmmaking competition to give one the opportunity to showcase their filmmaking skills.",
-		image: "",
+		image: buffer,
 		startDate: "",
 		endDate: "",
 		prize_pool: "10K",
@@ -1084,7 +1079,7 @@ export const events = [
 		category: "SPORTS",
 		type: "Team",
 		desc: "Gather your mates and showcase your skill, stamina, partnerships and sportsmanship in this grand game of futsal!.",
-		image: "",
+		image: rebecsal,
 		startDate: "",
 		endDate: "",
 		prize_pool: "10K",

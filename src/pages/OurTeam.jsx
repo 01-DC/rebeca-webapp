@@ -1,6 +1,11 @@
 import React from "react"
 import PageHeader from "../components/shared/PageHeader"
 import { teamDetails } from "../constants/teamDetails"
+import gautam from "../assets/team/Gautam_Anand.jpg"
+import madhumita from "../assets/team/Madhumita_Roy.jpg"
+import neel from "../assets/team/Neel_Diganta_Bhadra.jpg"
+import santanu from "../assets/team/Santanu_Maity.jfif"
+import subhash from "../assets/team/Subhash_Chandra_Mondal.jpg"
 
 const OurTeam = () => {
 	return (
@@ -9,11 +14,11 @@ const OurTeam = () => {
 			<div className="flex flex-col justify-center items-center gap-16 py-16">
 				<div className="flex flex-col items-center gap-4">
 					<div className="avatar">
-						<div className="w-24 rounded-full">
-							<img src="/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+						<div className="w-40 rounded-full">
+							<img src={subhash} />
 						</div>
 					</div>
-					<p className="bg-base-300 p-2 rounded-lg">
+					<p className="bg-base-300 p-4 rounded-full">
 						Prof. Subhash Chandra Mondal, Mechanical Engineering
 						(Chairman)
 					</p>
@@ -22,22 +27,22 @@ const OurTeam = () => {
 				<div className="flex gap-8 justify-center items-center">
 					<div className="flex flex-col items-center gap-4">
 						<div className="avatar">
-							<div className="w-24 rounded-full">
-								<img src="/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+							<div className="w-40 rounded-full">
+								<img src={gautam} />
 							</div>
 						</div>
-						<p>
+						<p className="bg-base-300 p-4 rounded-full">
 							Dr. Gautam Anand, Metallurgy & Materials Engineering
 							(Jt. Convener)
 						</p>
 					</div>
 					<div className="flex flex-col items-center gap-4">
 						<div className="avatar">
-							<div className="w-24 rounded-full">
-								<img src="/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+							<div className="w-40 rounded-full">
+								<img src={madhumita} />
 							</div>
 						</div>
-						<p>
+						<p className="bg-base-300 p-4 rounded-full">
 							Dr. Madhumita Roy, Humanities & Social Sciences (Jt.
 							Convener)
 						</p>
@@ -45,11 +50,11 @@ const OurTeam = () => {
 				</div>
 				<div className="flex flex-col items-center gap-4">
 					<div className="avatar">
-						<div className="w-24 rounded-full">
-							<img src="/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+						<div className="w-40 rounded-full">
+							<img src={santanu} />
 						</div>
 					</div>
-					<p>
+					<p className="bg-base-300 p-4 rounded-full">
 						Dr. Santanu Maity, Green Energy & Sensor System
 						(Treasurer)
 					</p>
@@ -57,19 +62,23 @@ const OurTeam = () => {
 				<div className="flex gap-8 justify-center items-center">
 					<div className="flex flex-col items-center gap-4">
 						<div className="avatar">
-							<div className="w-24 rounded-full">
-								<img src="/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+							<div className="w-40 rounded-full">
+								<img src={neel} />
 							</div>
 						</div>
-						<p>Neel Diganta Bhadra (Secretary General)</p>
+						<p className="bg-base-300 p-4 rounded-full">
+							Neel Diganta Bhadra (Secretary General)
+						</p>
 					</div>
 					<div className="flex flex-col items-center gap-4">
 						<div className="avatar">
-							<div className="w-24 rounded-full">
+							<div className="w-40 rounded-full">
 								<img src="/images/stock/photo-1534528741775-53994a69daeb.jpg" />
 							</div>
 						</div>
-						<p>Rohan Jana (Secretary General)</p>
+						<p className="bg-base-300 p-4 rounded-full">
+							Rohan Jana (Secretary General)
+						</p>
 					</div>
 				</div>
 			</div>

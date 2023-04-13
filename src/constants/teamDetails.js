@@ -172,7 +172,7 @@ export const teamDetails = [
 		title: "Web Development",
 		members: [
 			"Dhritin Dutta (CST)",
-			"Debojit Jha (IT)",
+			"Purba Dutta (ARCH)",
 			"Devanshu Chatterjee (IT)",
 			"Amit Lodh (MET)",
 		],
