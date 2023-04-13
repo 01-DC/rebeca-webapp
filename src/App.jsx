@@ -16,9 +16,9 @@ function App() {
 	return (
 		<div>
 			<Navbar />
-			<div className="fixed top-0 left-0 h-full w-full -z-40">
+			{/* <div className="fixed top-0 left-0 h-full w-full -z-40">
 				<AnimationCanvas />
-			</div>
+			</div> */}
 			<Routes>
 				<Route path="/" element={<Home />} />
 				<Route path="/events" element={<Events />} />
