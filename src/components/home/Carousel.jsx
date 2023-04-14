@@ -7,7 +7,7 @@ import slide4 from "../../assets/slide4.jpg"
 
 const Carousel = () => {
 	return (
-		<div className="bg-base-100 py-16 md:px-16">
+		<div className="bg-base-100 bg-opacity-5 backdrop-blur py-16 md:px-16">
 			<div className="relative">
 				<AnimationCanvas />
 				<h2

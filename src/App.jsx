@@ -10,12 +10,15 @@ import EventSingle from "./pages/EventSingle"
 import Sponsors from "./pages/Sponsors"
 import OurTeam from "./pages/OurTeam"
 import Schedule from "./pages/Schedule"
+import AnimationCanvas from "./components/shared/AnimationCanvas"
 
 function App() {
 	return (
 		<div>
 			<Navbar />
-
+			{/* <div className="fixed top-0 left-0 h-full w-full -z-40">
+				<AnimationCanvas />
+			</div> */}
 			<Routes>
 				<Route path="/" element={<Home />} />
 				<Route path="/events" element={<Events />} />

@@ -7,7 +7,7 @@ import sponsors2 from "../assets/sponsors2.png"
 
 const Sponsors = () => {
 	return (
-		<div>
+		<div className="bg-base-100 bg-opacity-5 backdrop-blur">
 			<PageHeader title={"Our Sponsors"} />
 			<div className="container mx-auto">
 				<div className="p-16">
