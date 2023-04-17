@@ -1,5 +1,9 @@
 export const teamDetails = [
 	{
+		title: "Joint Secretary",
+		members: ["Harsh Joshi (CE)", "Sankalp Sanjay Mukhedkar (AE)"],
+	},
+	{
 		title: "Finance",
 		members: [
 			"Mainak Mondal (CE)",
@@ -226,10 +230,6 @@ export const teamDetails = [
 			"Pratik Sitaram Girade (CST)",
 			"Karan Mahato (ME)",
 		],
-	},
-	{
-		title: "Joint Secretary",
-		members: ["Harsh Joshi (CE)", "Sankalp Sanjay Mukhedkar (AE)"],
 	},
 	{
 		title: "BECA Magazine",
