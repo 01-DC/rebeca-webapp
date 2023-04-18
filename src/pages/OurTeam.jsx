@@ -6,6 +6,7 @@ import madhumita from "../assets/team/Madhumita_Roy.jpg"
 import neel from "../assets/team/Neel_Diganta_Bhadra.jpg"
 import santanu from "../assets/team/Santanu_Maity.jfif"
 import subhash from "../assets/team/Subhash_Chandra_Mondal.jpg"
+import rohan from "../assets/team/rohan.jpeg"
 
 const OurTeam = () => {
 	return (
@@ -63,21 +64,21 @@ const OurTeam = () => {
 					<div className="flex flex-col items-center gap-4">
 						<div className="avatar">
 							<div className="w-40 rounded-full">
-								<img src={neel} />
+								<img src={rohan} />
 							</div>
 						</div>
 						<p className="bg-base-300 p-4 rounded-full">
-							Neel Diganta Bhadra (Secretary General)
+							Rohan Jana (Secretary General)
 						</p>
 					</div>
 					<div className="flex flex-col items-center gap-4">
 						<div className="avatar">
 							<div className="w-40 rounded-full">
-								<img src="/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+								<img src={neel} />
 							</div>
 						</div>
 						<p className="bg-base-300 p-4 rounded-full">
-							Rohan Jana (Secretary General)
+							Neel Diganta Bhadra (Secretary General)
 						</p>
 					</div>
 				</div>

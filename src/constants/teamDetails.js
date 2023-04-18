@@ -1,5 +1,9 @@
 export const teamDetails = [
 	{
+		title: "Joint Secretary",
+		members: ["Harsh Joshi (CE)", "Sankalp Sanjay Mukhedkar (AE)"],
+	},
+	{
 		title: "Finance",
 		members: [
 			"Mainak Mondal (CE)",
@@ -101,9 +105,10 @@ export const teamDetails = [
 			"Rakhi Jha (MIN)",
 			"Indranil Bain (CST)",
 			"Medarametla Avinash Choudary (ARCH)",
-			"Sayan Ghosh (CE)",
-			"Ajib KP (ARCH)",
 			"Chandaswi Borra (MET)",
+			"Rohan Das (AE)",
+			"Debasish (ARCH)",
+			"Neha Dabade (ARCH)",
 		],
 	},
 	{
@@ -226,10 +231,6 @@ export const teamDetails = [
 			"Pratik Sitaram Girade (CST)",
 			"Karan Mahato (ME)",
 		],
-	},
-	{
-		title: "Joint Secretary",
-		members: ["Harsh Joshi (CE)", "Sankalp Sanjay Mukhedkar (AE)"],
 	},
 	{
 		title: "BECA Magazine",
