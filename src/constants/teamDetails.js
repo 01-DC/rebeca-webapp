@@ -105,9 +105,10 @@ export const teamDetails = [
 			"Rakhi Jha (MIN)",
 			"Indranil Bain (CST)",
 			"Medarametla Avinash Choudary (ARCH)",
-			"Sayan Ghosh (CE)",
-			"Ajib KP (ARCH)",
 			"Chandaswi Borra (MET)",
+			"Rohan Das (AE)",
+			"Debasish (ARCH)",
+			"Neha Dabade (ARCH)",
 		],
 	},
 	{
