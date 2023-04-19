@@ -1,6 +1,7 @@
 import React from "react"
 import PageHeader from "../components/shared/PageHeader"
 import mumbai from "../assets/rebnights/mumbai.jpeg"
+import classical from "../assets/rebnights/classical.jpeg"
 
 const RebNights = () => {
 	return (
@@ -36,7 +37,7 @@ const RebNights = () => {
 						<h4 className="text-2xl mb-8 text-secondary">
 							Classical Night - Spic Macay Performances
 						</h4>
-						{/* <img src="" alt="rebeca" /> */}
+						<img src={classical} alt="rebeca" />
 					</div>
 				</div>
 			</div>
