@@ -6,7 +6,7 @@ const RebNights = () => {
 	return (
 		<div>
 			<PageHeader title={"REB Nights"} />
-			<div className="container mx-auto py-16 md:px-16">
+			<div className="mx-auto py-16 px-4 md:px-16">
 				<div className="grid grid-cols-1 md:grid-cols-2 gap-16">
 					<div className="rounded-xl border-4 p-4 border-rebpurple">
 						<h2 className="text-4xl font-bold">20th April</h2>
