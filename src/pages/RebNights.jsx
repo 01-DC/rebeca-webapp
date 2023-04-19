@@ -2,7 +2,10 @@ import React from "react"
 import PageHeader from "../components/shared/PageHeader"
 import mumbai from "../assets/rebnights/mumbai.jpeg"
 import mumbai2 from "../assets/rebnights/mumbai2.jpeg"
-import classical from "../assets/rebnights/classical.jpeg"
+import classical from "../assets/rebnights/classical.png"
+import beings from "../assets/rebnights/beings.jpeg"
+import kolkata from "../assets/rebnights/kolkata.png"
+import kolkata2 from "../assets/rebnights/kolkata2.png"
 
 const RebNights = () => {
 	return (
@@ -16,7 +19,7 @@ const RebNights = () => {
 							Mumbai Night - Ash King, Ehsaas India, Sunburn
 							Campus ft. DJ Aerro, BDM DJ
 						</h4>
-						<img className="" src={mumbai} alt="rebeca" />
+						<img src={mumbai} alt="rebeca" />
 					</div>
 					<div className="rounded-xl border-4 border-rebpurple p-4">
 						<h2 className="text-4xl font-bold">23rd April</h2>
@@ -28,17 +31,23 @@ const RebNights = () => {
 					<div className="rounded-xl border-4 p-4 border-rebpurple">
 						<h2 className="text-4xl font-bold">22nd April</h2>
 						<h4 className="text-2xl mb-8 text-secondary">
-							Kolkata Night - Distorted Chromosomes, The Anupam
-							Roy Band, DJ
+							Kolkata Night - The Anupam Roy Band
 						</h4>
-						{/* <img src="" alt="rebeca" /> */}
+						<img src={kolkata2} alt="rebeca" />
+					</div>
+					<div className="rounded-xl border-4 p-4 border-rebpurple">
+						<h2 className="text-4xl font-bold">22nd April</h2>
+						<h4 className="text-2xl mb-8 text-secondary">
+							Kolkata Night - Distorted Chromosomes, DJ
+						</h4>
+						<img src={kolkata} alt="rebeca" />
 					</div>
 					<div className="rounded-xl border-4 p-4 border-rebpurple">
 						<h2 className="text-4xl font-bold">21st April</h2>
 						<h4 className="text-2xl mb-8 text-secondary">
-							BEings Night - Pota Morudyan, DJ
+							BEings Night - Pata Morudyan, DJ
 						</h4>
-						{/* <img src="" alt="rebeca" /> */}
+						<img src={beings} alt="rebeca" />
 					</div>
 					<div className="rounded-xl border-4 p-4 border-rebpurple">
 						<h2 className="text-4xl font-bold">20th April</h2>
