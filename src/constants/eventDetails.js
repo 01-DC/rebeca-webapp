@@ -17,7 +17,6 @@ import barter from "../assets/events/barter to survive.png"
 import buffer from "../assets/events/Buffer.png"
 import rebecsal from "../assets/events/Rebecsal.png"
 import rebequiz from "../assets/events/Rebequiz.png"
-
 import artival from "../assets/events/Artival.png"
 import cinessence from "../assets/events/Cinessence.png"
 import fiducia from "../assets/events/fiducia main.jpg"
@@ -920,7 +919,7 @@ export const events = [
 					"Cross-college teams are allowed.",
 					"Teams of up to 3 members are allowed.",
 					"Participation certificates for all.",
-					"Theme - Media, Entertainment, Literature, Arts and Sports (MELA)",
+					"Theme - Music, Entertainment, Literature, Arts and Sports (MELAS)",
 					"Prelims will be conducted before the main quiz.",
 				],
 			},

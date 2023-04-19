@@ -1,45 +1,9 @@
-import React, { useState } from "react"
-import { NavLink, useNavigate } from "react-router-dom"
+import React from "react"
+import { NavLink } from "react-router-dom"
 import logo from "../../assets/rebeca-logo.png"
-// import moment from "moment"
-import axios from "axios"
-import Loader from "./Loader"
-
-// moment.updateLocale("en", {
-// 	relativeTime: {
-// 		future: "in %s",
-// 		past: "%s ago",
-// 		s: "1s",
-// 		ss: "%ds",
-// 		m: "1m",
-// 		mm: "%dm",
-// 		h: "1h",
-// 		hh: "%dh",
-// 		d: "1d",
-// 		dd: "%dd",
-// 		w: "1w",
-// 		ww: "%dw",
-// 		M: "1m",
-// 		MM: "%dm",
-// 		y: "1y",
-// 		yy: "%dy",
-// 	},
-// })
+import { notifs } from "../../constants/notifs"
 
 const NavBar = () => {
-	const [notifs, setNotifs] = useState([])
-	const navigate = useNavigate()
-
-	const getNotifications = async () => {
-		try {
-			const { data } = await axios.get("/api/v1/notif/")
-			// console.log(data)
-			setNotifs(data.notifs.reverse())
-		} catch (error) {
-			console.log(error)
-		}
-	}
-
 	return (
 		<nav className="sticky top-0 z-50 navbar bg-gradient-to-r from-rebpurple from-2% via-neutral via-22% to-base-100 to-100% transition-all duration-100 text-base-content shadow-sm">
 			<div className="navbar-start">
@@ -112,8 +76,7 @@ const NavBar = () => {
 					<div className="dropdown dropdown-end">
 						<label
 							tabIndex={0}
-							className="btn btn-ghost btn-circle"
-							onClick={getNotifications}>
+							className="btn btn-ghost btn-circle">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
 								className="h-8 w-8"
@@ -131,30 +94,18 @@ const NavBar = () => {
 						<ul
 							tabIndex={0}
 							className="dropdown-content p-2 shadow bg-base-100 rounded-box w-52">
-							{notifs?.length > 0 ? (
-								notifs?.map((n, i) => (
-									<li
-										className="p-2 my-2 border rounded-lg"
-										key={i}>
-										<h5 className="font-bold text-lg">
-											{n.title}
-										</h5>
-										<p className="text-md leading-tight mt-2">
-											{n.desc}
-										</p>
-										<p>
-											{moment(
-												n.created_at,
-												moment.ISO_8601
-											).fromNow()}
-										</p>
-									</li>
-								))
-							) : (
-								<div className="flex justify-center">
-									<Loader />
-								</div>
-							)}
+							{notifs?.map((n, i) => (
+								<li
+									className="p-2 my-2 border rounded-lg"
+									key={i}>
+									<h5 className="font-bold text-lg">
+										{n.title}
+									</h5>
+									<p className="text-md leading-tight mt-2">
+										{n.desc}
+									</p>
+								</li>
+							))}
 						</ul>
 					</div>
 				</div>
