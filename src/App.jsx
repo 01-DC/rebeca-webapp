@@ -11,6 +11,7 @@ import Sponsors from "./pages/Sponsors"
 import OurTeam from "./pages/OurTeam"
 import Schedule from "./pages/Schedule"
 import AnimationCanvas from "./components/shared/AnimationCanvas"
+import RebNights from "./pages/RebNights"
 
 function App() {
 	return (
@@ -24,7 +25,7 @@ function App() {
 				<Route path="/events" element={<Events />} />
 				<Route path="/events/:id" element={<EventSingle />} />
 				<Route path="/ourteam" element={<OurTeam />} />
-				<Route path="/rebnights" element={<ComingSoon />} />
+				<Route path="/rebnights" element={<RebNights />} />
 				<Route path="/schedule" element={<Schedule />} />
 				<Route path="/sponsors" element={<Sponsors />} />
 				<Route path="*" element={<ComingSoon />} />
