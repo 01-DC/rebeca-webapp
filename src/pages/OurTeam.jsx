@@ -84,7 +84,7 @@ const OurTeam = () => {
 				</div>
 			</div>
 
-			<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-8 place-items-center text-center py-16 md:px-16">
+			<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-8 text-center py-16 md:px-16">
 				{teamDetails.map((team, i) => (
 					<div className="bg-base-300 rounded-2xl p-8" key={i}>
 						<h2 className="text-3xl font-bold mb-4">
