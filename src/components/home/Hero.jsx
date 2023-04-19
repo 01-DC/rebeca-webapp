@@ -1,17 +1,10 @@
 import React from "react"
-import rebecaTeaser from "../../assets/rebeca-video-1.mp4"
+import cover from "../../assets/Cover photo.png"
 
 const Hero = () => {
 	return (
 		<div className="">
-			<video
-				src={rebecaTeaser}
-				className="w-screen"
-				autoPlay={true}
-				controls={false}
-				loop={true}
-				muted={true}
-			/>
+			<img src={cover} alt="rebeca" />
 		</div>
 	)
 }

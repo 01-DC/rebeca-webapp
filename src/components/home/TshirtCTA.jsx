@@ -5,7 +5,7 @@ import tshirtback from "../../assets/Rebeca T shirt Back.png"
 
 const TShirtCTA = () => {
 	return (
-		<div class="bg-base-200 bg-opacity-5 backdrop-blur py-16 md:px-16">
+		<div className="bg-base-200 bg-opacity-5 backdrop-blur py-16 md:px-16">
 			<div className="relative w-full">
 				<AnimationCanvas />
 				<h2
@@ -15,18 +15,18 @@ const TShirtCTA = () => {
 				</h2>
 			</div>
 			<div className="container mx-auto">
-				<div class="flex flex-col justify-center items-center">
+				<div className="flex flex-col justify-center items-center">
 					<div className="flex flex-col md:flex-row justify-between items-center gap-8 mt-16">
 						<div className="flex outline rounded-xl p-4 md:p-8 lg:p-16">
-							<div class="">
-								<img src={tshirtfront} class="" alt="..." />
+							<div>
+								<img src={tshirtfront} alt="..." />
 							</div>
-							<div class="">
-								<img src={tshirtback} class="" alt="..." />
+							<div>
+								<img src={tshirtback} alt="..." />
 							</div>
 						</div>
 						<div className="md:h-96 flex flex-col items-center justify-between gap-8">
-							<p class="text-left">
+							<p className="text-left">
 								REBECA 2023 is back with a bang, this time with
 								a statement Tee!
 								<br />
@@ -45,7 +45,7 @@ const TShirtCTA = () => {
 							<a
 								href="https://forms.gle/S6BgU4ZaZhX7jVrL6"
 								target="__blank"
-								class="btn btn-primary btn-wide rounded-full md:ml-auto tracking-wide">
+								className="btn btn-primary btn-wide rounded-full md:ml-auto tracking-wide">
 								Get your t-shirt now
 							</a>
 						</div>
