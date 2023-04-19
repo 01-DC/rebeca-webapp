@@ -3,11 +3,11 @@ import AnimationCanvas from "../shared/AnimationCanvas"
 
 const DetailsCard = ({ event }) => {
 	return (
-		<div className="relative p-16">
+		<div className="relative py-16 lg:px-16">
 			<div className="w-full h-full absolute top-0 left-0 -z-10">
 				<AnimationCanvas />
 			</div>
-			<div className="grid gap-8 lg:grid-cols-2 place-items-center bg-base-300 rounded-3xl bg-opacity-40 backdrop-blur p-8">
+			<div className="grid gap-8 lg:grid-cols-2 place-items-center bg-base-300 rounded-3xl bg-opacity-40 backdrop-blur lg:p-8">
 				<div className="flex flex-col gap-8">
 					<div>
 						<h2 className="text-3xl font-bold">{event.title}</h2>
