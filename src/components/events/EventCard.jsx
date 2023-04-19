@@ -10,6 +10,7 @@ const EventCard = ({ eventId, title, category, tagline, image }) => {
 						src={image}
 						alt={title}
 						className="w-full opacity-30"
+						loading="lazy"
 					/>
 				</figure>
 				<div className="card-body overflow-y-auto">

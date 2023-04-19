@@ -16,6 +16,15 @@ import shastra from "../assets/events/Shastrath.png"
 import barter from "../assets/events/barter to survive.png"
 import buffer from "../assets/events/Buffer.png"
 import rebecsal from "../assets/events/Rebecsal.png"
+import rebequiz from "../assets/events/Rebequiz.png"
+
+import artival from "../assets/events/Artival.png"
+import cinessence from "../assets/events/Cinessence.png"
+import fiducia from "../assets/events/fiducia main.jpg"
+import filmica from "../assets/events/Filmica.png"
+import rangmanch from "../assets/events/RANGAMANCH COMBO.jpg"
+import saturnalia from "../assets/events/saturnalia.jpg"
+import typist from "../assets/events/Typist_s Tourney.png"
 
 export const events = [
 	{
@@ -893,7 +902,7 @@ export const events = [
 		category: "QUIZMANIAC BEINGS - Quiz",
 		type: "Team",
 		desc: "Get ready to lock your horns and test your wits to witness the rebirth of the Ultimate Quiz in Rebeca. Presenting to you REBEQUIZ! We welcome all quizzing enthusiasts to showcase their knowledge and skills. Test your knowledge and quick-thinking skills in this exciting trivia event, and face your rivals in this race to come out on top.",
-		image: "",
+		image: rebequiz,
 		startDate: "",
 		endDate: "",
 		prize_pool: "10K",
@@ -1125,5 +1134,163 @@ export const events = [
 		payment_link_iiest: "",
 		payment_link: "",
 		brochure_link: "",
+	},
+	{
+		title: "Artival",
+		eventId: "20",
+		tagline:
+			"An Exhibition on Creative Expression where art meets imagination",
+		category: "SCAGE - Art Exhibition",
+		type: "Individual",
+		desc: "Artival is a celebration of creativity and artistic expression. This exhibition will showcase the works of talented artists from your college and beyond, providing a platform for them to share their unique perspectives with the community. Featuring a diverse range of art forms including paintings, sculptures, installations, and mixed media, Artistic Visions promises to be a visual feast for art enthusiasts. Whether you are an art lover or simply curious about the creative process, Artival is an event not to be missed. Comeexplore the depths of imagination and creativity that reside in the hearts and minds of our talented artists, and experience the magic of art in all its forms.",
+		image: artival,
+		startDate: "",
+		endDate: "",
+		rounds: [],
+		contacts: [
+			{
+				name: "Devanshu Chatterjee",
+				phone: "+91 73551 64558",
+			},
+			{
+				name: "Nikhil Singh",
+				phone: "+91 74898 38247",
+			},
+		],
+	},
+	{
+		title: "Filmica",
+		eventId: "21",
+		tagline: "LIGHTS, CAMERA, REBECA",
+		category: "Camerabuff - Workshop",
+		type: "Individual",
+		desc: "A workshop conducted by a special guest in association with Camerabuff where one can learn the ins and outs of filmmaking and explore the art of storytelling.",
+		image: filmica,
+		startDate: "",
+		endDate: "",
+		rounds: [],
+		contacts: [
+			{
+				name: "Manisha Rao",
+				phone: "9177309098",
+			},
+			{
+				name: "Mahesh Bandlamudi",
+				phone: "8639555844",
+			},
+		],
+	},
+	{
+		title: "Cinessence",
+		eventId: "22",
+		tagline: "Popcorn, best friends, and a film to keep company.",
+		category: "Camerabuff - Movie Night",
+		type: "Individual",
+		desc: "A fun-loaded movie night and to enjoy the culture of open air cinema screening with your friends and family.",
+		image: cinessence,
+		startDate: "",
+		endDate: "",
+		rounds: [],
+		contacts: [
+			{
+				name: "Krishna Kant Drolia",
+				phone: "8290259925",
+			},
+			{
+				name: "Vasanthi Katragadda",
+				phone: "8341410553",
+			},
+		],
+	},
+	{
+		title: "Fiducia",
+		eventId: "23",
+		tagline: "Grace REBECA with elegance",
+		category: "REBECA - Fashion Show",
+		type: "Individual",
+		desc: "Here's your chance to show off your fashion and woo the crowds as you walk the ramp, be the style icon you wanted to be. FIDUCIA, REBECA's fashion show event, is back with a bang!",
+		image: fiducia,
+		startDate: "",
+		endDate: "",
+		rounds: [],
+		contacts: [
+			{
+				name: "Tiyasa Khan",
+				phone: "8373047586",
+			},
+			{
+				name: "Priyanshu Agarwal",
+				phone: "7078741560",
+			},
+		],
+	},
+	{
+		title: "Rangmanch",
+		eventId: "24",
+		tagline: "When words come to life on stage.",
+		category: "Les Thespians - Theatrics",
+		type: "Team",
+		desc: "Les Thespians, The Dramatics Society of IIEST Shibpur, presents Rangmanch, an unforgettable live theatre as we present a captivating stage drama that will take you on an emotional journey. Our talented actors will bring the characters in the story to life right before your eyes, while our technical team creates a mesmerising atmosphere with their lighting, sound, and set design. Whether you're a fan of serious dramas or lighthearted comedies, our stage drama promises to entertain and leave you with something to think about long after the show is over.",
+		image: rangmanch,
+		startDate: "",
+		endDate: "",
+		rounds: [],
+		contacts: [
+			{
+				name: "Kulin Kumar",
+				phone: "7003768164",
+			},
+			{
+				name: "Srinjoy Paul",
+				phone: "9874755910",
+			},
+		],
+	},
+	{
+		title: "Saturnalia",
+		eventId: "25",
+		tagline:
+			"Rediscover the Suramya: A Captivating Exhibition of Timeless Photographs",
+		category: "Catharsis - Exhibition",
+		type: "Individual",
+		desc: "A Photography exhibition, to draw the attention of budding shutterbugs and to provide them with an opportunity to showcase their talent.",
+		image: saturnalia,
+		startDate: "",
+		endDate: "",
+		rounds: [],
+		contacts: [
+			{
+				name: "Nishita Chowdhury",
+				phone: "+91 8777542763",
+			},
+			{
+				name: "Shramana Chowdhury",
+				phone: "+91 9002063900",
+			},
+			{ name: "Sumana Singh", phone: "+91 9800921724" },
+			{ name: "Varnit Jain", phone: "+91 9879794823" },
+		],
+	},
+	{
+		title: "Typists' Tourney",
+		eventId: "26",
+		tagline: "Type with your fingers, think with your brain.",
+		category: "CodeIIEST - Competition",
+		type: "Individual",
+		desc: "This REBECA, CodeIIEST brings you the chance to flaunt your touch typing. Head over to the Typists’ Journey and race to defend your high score!",
+		image: typist,
+		startDate: "",
+		endDate: "",
+		rounds: [],
+		contacts: [
+			{
+				name: "Rajesh Penugonda",
+				phone: "+91 99593 26280",
+			},
+			{
+				name: "Kiranmoy Saha",
+				phone: "+91 90830 45947",
+			},
+		],
 	},
 ]
