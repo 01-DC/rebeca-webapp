@@ -5,6 +5,7 @@ import mumbai2 from "../assets/rebnights/mumbai2.jpeg"
 import classical from "../assets/rebnights/classical.png"
 import classical2 from "../assets/rebnights/classical2.jpeg"
 import beings from "../assets/rebnights/beings.jpeg"
+import beings2 from "../assets/rebnights/beings2.webp"
 import kolkata from "../assets/rebnights/kolkata.png"
 import kolkata2 from "../assets/rebnights/kolkata2.png"
 
@@ -49,6 +50,13 @@ const RebNights = () => {
 							BEings Night - Pata Morudyan, DJ
 						</h4>
 						<img src={beings} alt="rebeca" />
+					</div>
+					<div className="rounded-xl border-4 p-4 border-rebpurple">
+						<h2 className="text-4xl font-bold">21st April</h2>
+						<h4 className="text-2xl mb-8 text-secondary">
+							BEings Night - Anubhuti
+						</h4>
+						<img src={beings2} alt="rebeca" />
 					</div>
 					<div className="rounded-xl border-4 p-4 border-rebpurple">
 						<h2 className="text-4xl font-bold">20th April</h2>
