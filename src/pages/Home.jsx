@@ -8,7 +8,7 @@ import Countdown from "../components/home/Countdown"
 const Home = () => {
 	return (
 		<div>
-			<Countdown />
+			{/* <Countdown /> */}
 			<Hero />
 			<About />
 			<Carousel />
