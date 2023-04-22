@@ -1,7 +1,7 @@
 import React from "react"
 import PageHeader from "../components/shared/PageHeader"
 
-import brochure from "../assets/FINAL SPONSORSHIP BROCHURE - SINGLE PAGES.pdf"
+import brochure from "../assets/FINAL EVENT BROCHURE.pdf"
 import sponsors1 from "../assets/sponsors1.png"
 import sponsors2 from "../assets/sponsors2.png"
 
