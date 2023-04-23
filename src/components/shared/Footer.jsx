@@ -18,7 +18,7 @@ const Footer = () => {
 					<Link to="/sponsors" className="link link-hover">
 						Sponsors
 					</Link>
-					<Link to="/contactus" className="link link-hover">
+					<Link to="/ourteam" className="link link-hover">
 						Our Team
 					</Link>
 				</div>
@@ -38,7 +38,7 @@ const Footer = () => {
 					<span className="footer-title">Get in Touch</span>
 					<a
 						className="link link-hover flex gap-2 items-center justify-center"
-						href="mailto:instruo@iiests.ac.in">
+						href="mailto:82rebeca2023@gmail.com">
 						<svg
 							fill="none"
 							className="w-4 h-4"
